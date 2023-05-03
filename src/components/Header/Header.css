@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 12px;
+    color: var(--color-white);
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.header h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    gap:18px;
+    font-size: 23px;
+    cursor: pointer;
+}

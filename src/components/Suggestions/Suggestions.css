@@ -1,0 +1,21 @@
+.suggestions{
+    display: flex;
+}
+
+.suggestions img{
+    width: 55px;
+    height: 55px;
+    border-radius: 10px 0 0 10px;
+}
+.suggestions-name{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    height: 55px;
+    width: 125px;
+    padding: 0 5px;
+    background-color: var(--color-bg-variant);
+    border-radius: 0 10px 10px 0;
+}
+

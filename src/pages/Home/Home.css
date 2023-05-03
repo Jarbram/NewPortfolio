@@ -1,0 +1,13 @@
+.categories-navbar{
+    display: flex;
+    gap:10px;
+    margin-left: 12px;
+}
+
+.suggestions-container{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding:0 8px;
+}

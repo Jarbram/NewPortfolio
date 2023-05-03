@@ -1,0 +1,23 @@
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+    
+    width: auto;
+    height: 40px;
+    background-color: var(--color-bg-variant);
+    color: var(--color-white);
+    padding: 10px 14px;
+    border-radius: 18px 18px 18px 18px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#button:active,
+#button:focus{
+    background-color: var(--color-reaction);
+    color: var(--color-bg);
+    border-radius: 18px 18px 18px 18px;
+}
