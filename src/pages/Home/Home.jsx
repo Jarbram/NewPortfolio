@@ -15,6 +15,8 @@ import Img4 from '../../assets/img4.jpg'
 import Img5 from '../../assets/img5.jpg'
 import Img6 from '../../assets/img6.jpg'
 import Slider from '../../components/Slider/Slider'
+import Footer from '../../components/Footer/Footer'
+import Player from '../../components/Player/Player'
 
 function getLocalTime() {
     const date = new Date();
@@ -55,12 +57,6 @@ const Home = () => {
     { id: 5, name: "Experience", img: Img5, alt: "photo" },
     { id: 6, name: "Liked Songs", img: Img6, alt: "photo" },
   ];
-
-  const stories = [
-    
-    'https://images.pexels.com/photos/12765768/pexels-photo-12765768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    'https://images.pexels.com/photos/14712543/pexels-photo-14712543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      ]
   const [showResetButton, setShowResetButton] = useState(false);
 
   const handleButtonClick = (buttonId) => {
@@ -125,7 +121,9 @@ const Home = () => {
         ))
       }
     </div>
-    <Slider image={stories} />
+    <Slider />
+    <Player />
+    <Footer />
     </div>
   );
 };

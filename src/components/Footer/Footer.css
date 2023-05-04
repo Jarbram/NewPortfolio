@@ -1,0 +1,24 @@
+.footer-container{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    z-index: 9999;
+    width: 100%;
+    padding: 10px
+}
+.footer-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color:transparent;
+    color: white;
+}
+.footer-icons span{
+font-size: 12px;
+}
+.icon{
+    font-size: 30px;
+    margin: 10px;
+}
