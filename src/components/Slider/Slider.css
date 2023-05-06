@@ -35,8 +35,10 @@
     margin-bottom:1rem;
 }
 .swiper-pagination {
+    position: relative;
     padding: 12px;
     height: 100%;
+    z-index: 0;
 }
 .swiper-pagination-clickable .swiper-pagination-bullet {
     background: var(--color-white);

@@ -1,7 +1,6 @@
 import React from 'react'
 import './Slider.css'
-import {  Pagination } from 'swiper';
-
+import {  Autoplay, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -9,9 +8,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay';
 
 
-const Slider = (props) => {
+
+const Slider = () => {
   const stories = [
     
     { id:1,
@@ -33,11 +34,15 @@ const Slider = (props) => {
     <div className='slider-container'>
 
     <Swiper 
-    modules={[ Pagination]}
+    modules={[Autoplay, Pagination]}
     spaceBetween={40}
     slidesPerView={1}
-    pagination={{ clickable: true }}
     loop={true}
+    autoplay={{
+      delay: 2500,
+      disableOnInteraction: false
+      }}
+    pagination={{ clickable: true }}
     >
       {
         stories.map(({id,image,alt}) => (

@@ -17,6 +17,7 @@ import Img6 from '../../assets/img6.jpg'
 import Slider from '../../components/Slider/Slider'
 import Footer from '../../components/Footer/Footer'
 import Player from '../../components/Player/Player'
+import Portfolio from '../../components/Portfolio/Portfolio'
 
 function getLocalTime() {
     const date = new Date();
@@ -124,6 +125,7 @@ const Home = () => {
     <Slider />
     <Player />
     <Footer />
+    <Portfolio />
     </div>
   );
 };
