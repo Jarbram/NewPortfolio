@@ -1,5 +1,8 @@
 import React from 'react'
 import './portfolio.css'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 import Portfolio1 from '../../assets/portfolio1.jpg'
@@ -27,26 +30,28 @@ const portfolio = [
     {id:9,image : Portfolio10 ,alt:'photo',title:'photo', description:'photo',},
 ]
 
+const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll:1,
+}
+
   return (
     <div className='portfolio'>
         <h1>Made For You</h1>
-    <div className='portfolio-container'>
+        <Slider {...settings}>
             {
-                portfolio.map((portfolios) => (
-                    <div key={portfolios.id} >
-                        <div className='portfolio-item'>
-                            <div className='portfolio-container-image'>
-                            <img src={portfolios.image} alt={portfolios.alt} />
-                            </div>
-                            <div className='portfolio-info'>
-                                <h3>{portfolios.title}</h3>
-                                <p>{portfolios.description}</p>
-                            </div>
-                        </div>
+                portfolio.map((port) => (
+                    <div className='portfolio-item' key={port.id}>
+                        <img src={port.image} alt={port.alt} />
+                        <h3>{port.title}</h3>
+                        <p>{port.description}</p>
                     </div>
                 ))
             }
-    </div>
+        </Slider>
     </div>
   )
 }

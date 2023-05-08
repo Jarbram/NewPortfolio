@@ -10,4 +10,5 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
     padding:0 8px;
+    color: var(--color-white);
 }

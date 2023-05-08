@@ -4,18 +4,21 @@ import {FaHeart, FaPlay } from
 'react-icons/fa'
 //import {FaPause} from 'react-icons/fa'
 import {BsPcDisplay} from 'react-icons/bs'
+import Suggesting from '../../data/data'
 
 
-const Player = () => {
+const Player = (props) => {
+const { id } = props
+const item = Suggesting.find((item) => item.id === Number(id))
 
   return (
     <div className='player-container'>
     
         <div className='song-container' >
-          <img src='https://images.pexels.com/photos/7511802/pexels-photo-7511802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/>
+          <img src={item.img} alt={item.alt}/>
             <div className='song-info'>
-              <span className='song-name'>Song name</span>
-              <span>Artist</span>
+              <span className='song-name'>{item.song}</span>
+              <span>{item.artist}</span>
             </div>
         </div>
         <div className='player-controls'>

@@ -4,10 +4,15 @@
     margin-bottom: 1rem;
     margin-left: 10px;
 }
+.portfolio{
+    position: relative;
+    width: 100%; /* Altura fija */
+    overflow: hidden;
+}
 .portfolio-container{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .portfolio-item{
     display: flex;
@@ -15,12 +20,21 @@
     margin-bottom: 1rem;
     padding: 10px;
 }
-.portfolio-item img{
-    width: 140px;
-    height: 140px;
-    border-radius: 5px;
-}
 .portfolio-info{
     font-size: 12px;
     font-weight: 400;
 }
+.slick-slide img {
+    width: 100%;
+    height: 120px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+  
+  .slick-dots li button:before {
+    color: black;
+  }
+  

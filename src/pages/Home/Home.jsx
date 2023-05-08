@@ -7,17 +7,12 @@ import {FaLinkedin} from 'react-icons/fa'
 import {GrFormClose} from 'react-icons/gr'
 import Button from '../../components/Button/Button';
 import Suggestions from '../../components/Suggestions/Suggestions'
-
-import Img1 from '../../assets/img1.jpg'
-import Img2 from '../../assets/img2.jpg'
-import Img3 from '../../assets/img3.jpg'
-import Img4 from '../../assets/img4.jpg'
-import Img5 from '../../assets/img5.jpg'
-import Img6 from '../../assets/img6.jpg'
+import Suggesting from '../../data/data'
 import Slider from '../../components/Slider/Slider'
 import Footer from '../../components/Footer/Footer'
 import Player from '../../components/Player/Player'
 import Portfolio from '../../components/Portfolio/Portfolio'
+import Contact from '../../components/Contact/Contact'
 
 function getLocalTime() {
     const date = new Date();
@@ -50,14 +45,7 @@ const Home = () => {
     { id: 3, label: "Contact", url: "#", selected: false },
   ]);
 
-  const Suggesting = [
-    { id: 1, name: "Abraham", img: Img1, alt: "photo" },
-    { id: 2, name: "Jarbram", img: Img2, alt: "photo" },
-    { id: 3, name: "Hobbits", img: Img3, alt: "photo" },
-    { id: 4, name: "Idioms", img: Img4, alt: "photo" },
-    { id: 5, name: "Experience", img: Img5, alt: "photo" },
-    { id: 6, name: "Liked Songs", img: Img6, alt: "photo" },
-  ];
+  
   const [showResetButton, setShowResetButton] = useState(false);
 
   const handleButtonClick = (buttonId) => {
@@ -114,7 +102,8 @@ const Home = () => {
     <div className='suggestions-container'>
       {
         Suggesting.map((suggesting) => (
-          <Suggestions 
+          <Suggestions
+          id={suggesting.id}
           key={suggesting.id} 
           name={suggesting.name} 
           img={suggesting.img} 
@@ -123,9 +112,10 @@ const Home = () => {
       }
     </div>
     <Slider />
-    <Player />
+    <Portfolio /> 
+    <Contact />   
+    <Player id="1" />
     <Footer />
-    <Portfolio />
     </div>
   );
 };
