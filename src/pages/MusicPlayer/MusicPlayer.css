@@ -1,0 +1,74 @@
+.musicPlayer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 130px 0;
+    padding: 0 28px;
+} 
+.about-img{
+    width: 360px;
+    height: 390px;
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-song{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-reaction);
+    font-size: 1.5rem;
+}
+.names{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--color-white);
+    font-size: 15px;
+}
+.names h1{
+    font-size: 25px;
+}
+
+.progress-bar-container {
+    margin-top: 17px;
+    width: 100%;
+    height: 2px;
+    background-color:var(--color-bg-variant);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color:var(--color-white);
+    transition: width 0.1s linear;
+}
+
+.audio-player {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    gap: 20px;
+}
+
+.play-pause-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+  
+  .play-pause-btn:hover {
+    color: #666;
+  }
+  

@@ -1,15 +1,13 @@
 import React from 'react'
-import './About.css'
+import './AboutPortfolio.css'
 import { useParams } from 'react-router-dom'
 import data from '../../data/data'
 import Player from '../../components/Player/Player'
 import Footer from '../../components/Footer/Footer'
 
-
-const About = () => {
+const AboutPortfolio = () => {
     const { id } = useParams()
-    const item = data.Suggesting.find((item) => item.id === Number(id))
-
+    const item = data.portfolio.find((item) => item.id === Number(id))
   return (
     <div className='about'>
         <div className='about-image'>
@@ -23,4 +21,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutPortfolio

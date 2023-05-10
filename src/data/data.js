@@ -5,7 +5,20 @@ import Img4 from '../assets/img4.jpg'
 import Img5 from '../assets/img5.jpg'
 import Img6 from '../assets/img6.jpg'
 
-const Suggesting = [
+import Portfolio1 from '../assets/portfolio1.jpg'
+import Portfolio2 from '../assets/portfolio2.jpeg'
+import Portfolio3 from '../assets/portfolio3.jpg'
+import Portfolio4 from '../assets/portfolio4.jpg'
+import Portfolio5 from '../assets/portfolio5.jpg'
+import Portfolio6 from '../assets/portfolio6.jpg'
+import Portfolio7 from '../assets/portfolio7.png'
+import Portfolio8 from '../assets/portfolio8.jpg'
+import Portfolio10 from '../assets/portfolio10.jpg'
+
+import audio1 from '../assets/audio1.mp3'
+
+const data ={
+Suggesting :[
     { 
         id: 1, 
         name: "Abraham", 
@@ -13,7 +26,8 @@ const Suggesting = [
         alt: "photo",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
         song:"Abraham Huacchillo",
-        artist:"Abraham "
+        artist:"Abraham ",
+        url: audio1
     },
     { 
         id: 2, 
@@ -22,7 +36,8 @@ const Suggesting = [
         alt: "photo",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
         song:"Jarbram",
-        artist:"Abraham "
+        artist:"Abraham ",
+        url:audio1
     },
     { 
         id: 3, 
@@ -31,7 +46,8 @@ const Suggesting = [
         alt: "photo",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
         song:"Hobbies",
-        artist:"Abraham "
+        artist:"Abraham ",
+        url: audio1
     },
     { 
         id: 4, 
@@ -60,7 +76,84 @@ const Suggesting = [
         song:"Liked Songs",
         artist:"Abraham "
     },
-  ];
+],
 
-  export default Suggesting;
+portfolio : [
+    {
+        id:1,
+        img : Portfolio1 ,
+        alt:'photo',
+        title:'photo',
+        name: "Jarbram",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+    },
+    {
+        id:2,
+        img : Portfolio2 ,
+        alt:'photo',
+        title:'photo', 
+        name: "Jarbram",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+    },
+    {
+        id:3,
+        img: Portfolio3 ,
+        alt:'photo',
+        title:'photo',
+        name: "Jarbram",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+    },
+    {
+        id:4,
+        img: Portfolio4 ,
+        alt:'photo',
+        title:'photo', 
+        name: "Jarbram",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+    },
+    {
+        id:5,
+        img: Portfolio5 ,
+        alt:'photo',
+        title:'photo', 
+        name: "Jarbram",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+    },
+    {
+        id:6,
+        img: Portfolio6 ,
+        alt:'photo',
+        title:'photo', 
+        name: "Jarbram",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+    },
+    {
+        id:7,
+        img: Portfolio7 ,
+        alt:'photo',
+        title:'photo',
+        name: "Jarbram", 
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+    },
+    {
+        id:8,
+        img: Portfolio8 ,
+        alt:'photo',
+        title:'photo', 
+        name: "Jarbram",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+    },
+    {
+        id:9,
+        img: Portfolio10 ,
+        alt:'photo',
+        title:'photo', 
+        name: "Jarbram",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+    },
+],
+
+} ;
+
+export default data;
 

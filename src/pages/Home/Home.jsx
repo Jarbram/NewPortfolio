@@ -7,7 +7,7 @@ import {FaLinkedin} from 'react-icons/fa'
 import {GrFormClose} from 'react-icons/gr'
 import Button from '../../components/Button/Button';
 import Suggestions from '../../components/Suggestions/Suggestions'
-import Suggesting from '../../data/data'
+import data from '../../data/data'
 import Slider from '../../components/Slider/Slider'
 import Footer from '../../components/Footer/Footer'
 import Player from '../../components/Player/Player'
@@ -101,7 +101,7 @@ const Home = () => {
     </div>
     <div className='suggestions-container'>
       {
-        Suggesting.map((suggesting) => (
+        data.Suggesting.map((suggesting) => (
           <Suggestions
           id={suggesting.id}
           key={suggesting.id} 

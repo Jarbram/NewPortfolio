@@ -12,6 +12,7 @@ margin: 5px;
 padding: 10px;
 border-radius: 10px;
 background-color: var(--color-bottom-Bar);
+color:var(--color-white)
 }
 .song-container{
     display: flex;
@@ -39,7 +40,6 @@ background-color: var(--color-bottom-Bar);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     gap: 18px;
     font-size: 22px;
     margin-right: 10px;
