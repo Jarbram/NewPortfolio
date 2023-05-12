@@ -15,7 +15,22 @@ import Portfolio7 from '../assets/portfolio7.png'
 import Portfolio8 from '../assets/portfolio8.jpg'
 import Portfolio10 from '../assets/portfolio10.jpg'
 
-import audio1 from '../assets/audio1.mp3'
+import audio2 from '../assets/audio2.mp3'
+import audio3 from '../assets/audio3.mp3'
+import audio4 from '../assets/audio4.mp3'
+import audio5 from '../assets/audio5.mp3'
+import audio6 from '../assets/audio6.mp3'
+import audio7 from '../assets/audio7.mp3'
+import audio8 from '../assets/audio8.mp3'
+import audio9 from '../assets/audio9.mp3'
+import audio10 from '../assets/audio10.mp3'
+import audio11 from '../assets/audio11.mp3'
+import audio12 from '../assets/audio12.mp3'
+import audio13 from '../assets/audio13.mp3'
+import audio14 from '../assets/audio14.mp3'
+import audio15 from '../assets/audio15.mp3'
+import audio17 from '../assets/audio17.mp3'
+
 
 const data ={
 Suggesting :[
@@ -27,7 +42,8 @@ Suggesting :[
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
         song:"Abraham Huacchillo",
         artist:"Abraham ",
-        url: audio1
+        url: audio17,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
     },
     { 
         id: 2, 
@@ -37,7 +53,8 @@ Suggesting :[
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
         song:"Jarbram",
         artist:"Abraham ",
-        url:audio1
+        url:audio2,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
     },
     { 
         id: 3, 
@@ -47,7 +64,8 @@ Suggesting :[
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
         song:"Hobbies",
         artist:"Abraham ",
-        url: audio1
+        url: audio3,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
     },
     { 
         id: 4, 
@@ -56,7 +74,9 @@ Suggesting :[
         alt: "photo",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
         song:"Idioms",
-        artist:"Abraham " 
+        artist:"Abraham ",
+        url: audio4,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
     },
     { 
         id: 5, 
@@ -65,7 +85,9 @@ Suggesting :[
         alt: "photo",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
         song:"Experience",
-        artist:"Abraham " 
+        artist:"Abraham ",
+        url: audio5,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
     },
     { 
         id: 6, 
@@ -74,82 +96,138 @@ Suggesting :[
         alt: "photo",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
         song:"Liked Songs",
-        artist:"Abraham "
+        artist:"Abraham ",
+        url: audio6,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
     },
 ],
 
 portfolio : [
     {
         id:1,
+        name: "Jarbram",
         img : Portfolio1 ,
         alt:'photo',
-        title:'photo',
-        name: "Jarbram",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        song:'photo',
+        artist:'Jarbram',
+        title:'photo',  
+        url: audio7,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        github: 'https://github.com/Jarbram/pokedex-react',
+        demo: 'https://jarbram.github.io/pokedex-react/'
     },
     {
         id:2,
         img : Portfolio2 ,
         alt:'photo',
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        song:'photo',
+        artist:'Jarbram',
         title:'photo', 
         name: "Jarbram",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        url: audio8,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        github: 'https://github.com/Jarbram/pokedex-react',
+        demo: 'https://jarbram.github.io/pokedex-react/'
     },
     {
         id:3,
         img: Portfolio3 ,
         alt:'photo',
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        song:'photo',
+        artist:'Jarbram',
         title:'photo',
         name: "Jarbram",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        url: audio9,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        github: 'https://github.com/Jarbram/pokedex-react',
+        demo: 'https://jarbram.github.io/pokedex-react/'
     },
     {
         id:4,
-        img: Portfolio4 ,
+        img : Portfolio4 ,
         alt:'photo',
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        song:'photo',
+        artist:'Jarbram',
         title:'photo', 
         name: "Jarbram",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        url: audio10,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        github: 'https://github.com/Jarbram/pokedex-react',
+        demo: 'https://jarbram.github.io/pokedex-react/'
     },
     {
         id:5,
-        img: Portfolio5 ,
+        img : Portfolio5 ,
         alt:'photo',
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        song:'photo',
+        artist:'Jarbram',
         title:'photo', 
         name: "Jarbram",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        url: audio11,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        github: 'https://github.com/Jarbram/pokedex-react',
+        demo: 'https://jarbram.github.io/pokedex-react/'
     },
     {
         id:6,
-        img: Portfolio6 ,
+        img : Portfolio6 ,
         alt:'photo',
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        song:'photo',
+        artist:'Jarbram',
         title:'photo', 
         name: "Jarbram",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        url: audio12,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        github: 'https://github.com/Jarbram/pokedex-react',
+        demo: 'https://jarbram.github.io/pokedex-react/'
     },
     {
         id:7,
-        img: Portfolio7 ,
+        img : Portfolio7,
         alt:'photo',
-        title:'photo',
-        name: "Jarbram", 
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        song:'photo',
+        artist:'Jarbram',
+        title:'photo', 
+        name: "Jarbram",
+        url: audio13,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        github: 'https://github.com/Jarbram/pokedex-react',
+        demo: 'https://jarbram.github.io/pokedex-react/'
     },
     {
         id:8,
-        img: Portfolio8 ,
+        img : Portfolio8,
         alt:'photo',
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        song:'photo',
+        artist:'Jarbram',
         title:'photo', 
         name: "Jarbram",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        url: audio14,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        github: 'https://github.com/Jarbram/pokedex-react',
+        demo: 'https://jarbram.github.io/pokedex-react/'
     },
     {
         id:9,
-        img: Portfolio10 ,
+        img : Portfolio10 ,
         alt:'photo',
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        song:'photo',
+        artist:'Jarbram',
         title:'photo', 
         name: "Jarbram",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        url: audio15,
+        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        github: 'https://github.com/Jarbram/pokedex-react',
+        demo: 'https://jarbram.github.io/pokedex-react/'
     },
 ],
 

@@ -54,3 +54,14 @@
 .artist{
     font-size: 14px;
 }
+.lyrics{
+    margin-top: 20px;
+    width: 350px;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    padding: 10px;
+    background-color: var(--color-bg-variant);
+    border-radius: 10px;
+    margin-bottom: 60px;
+}

@@ -9,7 +9,7 @@ const Button = ({ label, url, onClick, selected, visible }) => {
   const style = { display: visible ? 'block' : 'none'};
 
   return (
-    <div className='button-container'>
+    <div className='buttons'>
     <a
     href={url} onClick={onClick} className={classes} style={style} id='button'> 
       {label}

@@ -3,13 +3,10 @@ import './Player.css'
 import {FaHeart, FaPlay, FaPause } from 
 'react-icons/fa'
 import {BsPcDisplay} from 'react-icons/bs'
-import data from '../../data/data'
 import { useNavigate } from 'react-router-dom'
 
 
 const Player = (props) => {
-const { id } = props
-const item = data.Suggesting.find((item) => item.id === Number(id))
 const [isPlaying, setIsPlaying] = useState(false);
 const audioRef = useRef();
 
@@ -24,16 +21,16 @@ const handlePlay = () => {
 
 const navigate = useNavigate();
 const handleClick = () => {
-  navigate(`/musicPlayer/${id}`);
+  navigate(`/musicPlayer/${props.id}`);
 }
 
   return (
     <div className='player-container' >
         <div className='song-container' onClick={handleClick} >
-          <img src={item.img} alt={item.alt}/>
+          <img src={props.img} alt={props.alt}/>
             <div className='song-info'>
-              <span className='song-name'>{item.song}</span>
-              <span>{item.artist}</span>
+              <span className='song-name'>{props.song}</span>
+              <span>{props.artist}</span>
             </div>
         </div>
         <div className='player-controls'>
@@ -43,7 +40,7 @@ const handleClick = () => {
               {isPlaying ? <FaPause /> : <FaPlay/>}
             </div>
         </div>
-        <audio ref={audioRef} src={item.url}  onEnded={() => setIsPlaying}  />
+        <audio ref={audioRef} src={props.url}  onEnded={() => setIsPlaying}  />
       </div>
   )
 }

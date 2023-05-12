@@ -8,16 +8,24 @@ import Footer from '../../components/Footer/Footer'
 
 const About = () => {
     const { id } = useParams()
-    const item = data.Suggesting.find((item) => item.id === Number(id))
+    const suggestion = data.Suggesting.find((item) => item.id === Number(id))
 
   return (
     <div className='about'>
         <div className='about-image'>
-            <img src={item.img} alt={item.alt}/>
+            <img src={suggestion.img} alt={suggestion.alt}/>
         </div>
-        <h1>About {item.name}</h1>
-        <p className='description'>{item.description}</p>
-        <Player id={id} />
+        <h1>About {suggestion.name}</h1>
+        <p className='description'>{suggestion.description}</p>
+        <p className='lyrics'>{suggestion.lyrics}</p>
+        <Player 
+          id={suggestion.id}
+          img={suggestion.img}
+          alt={suggestion.alt}
+          song={suggestion.song}
+          artist={suggestion.artist}
+          url={suggestion.url}
+          />
         <Footer />
     </div>
   )

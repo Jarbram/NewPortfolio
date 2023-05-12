@@ -45,7 +45,7 @@ const Home = () => {
     { id: 3, label: "Contact", url: "#", selected: false },
   ]);
 
-  
+  const firstSong = data.Suggesting[0];
   const [showResetButton, setShowResetButton] = useState(false);
 
   const handleButtonClick = (buttonId) => {
@@ -114,7 +114,14 @@ const Home = () => {
     <Slider />
     <Portfolio /> 
     <Contact />   
-    <Player id="1" />
+    <Player 
+    id={firstSong.id}
+    img={firstSong.img}
+    alt={firstSong.alt}
+    song={firstSong.song}
+    artist={firstSong.artist}
+    url={firstSong.url}
+    />
     <Footer />
     </div>
   );
