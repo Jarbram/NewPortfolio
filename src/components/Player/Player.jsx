@@ -21,7 +21,16 @@ const handlePlay = () => {
 
 const navigate = useNavigate();
 const handleClick = () => {
-  navigate(`/musicPlayer/${props.id}`);
+  navigate(`/musicPlayer/${props.id}`,{
+    state: {
+      id: props.id,
+      img: props.img,
+      alt: props.alt,
+      song: props.song,
+      artist: props.artist,
+      url: props.url
+    }
+  });
 }
 
   return (

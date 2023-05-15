@@ -65,3 +65,12 @@
     border-radius: 10px;
     margin-bottom: 60px;
 }
+.back-btn{
+    width: 100%;
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 28px;
+}

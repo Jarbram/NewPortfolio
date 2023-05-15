@@ -6,7 +6,7 @@
     padding: 0 28px;
 } 
 .about-img{
-    width: 360px;
+    width: 350px;
     height: 390px;
 }
 .about-img img{
@@ -54,7 +54,7 @@
     margin-top: 40px;
     display: flex;
     align-items: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
     gap: 20px;
 }
 
@@ -72,3 +72,14 @@
     color: #666;
   }
   
+.return-btn{
+    margin-top: -100px;
+    margin-bottom: 130px;
+    left: 0;
+    margin-left: 28px;
+    position: absolute;
+    display: flex;
+    color: var(--color-white);
+    cursor: pointer;
+    font-size: 1.5rem;
+}

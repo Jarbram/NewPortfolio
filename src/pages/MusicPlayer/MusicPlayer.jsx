@@ -1,17 +1,20 @@
 import React , {useState, useRef} from 'react'
 import './MusicPlayer.css'
-import { useParams } from 'react-router-dom'
-import Suggesting from '../../data/data'
+import { useLocation } from 'react-router-dom'
 import {FaHeart } from 
 'react-icons/fa'
-import {AiFillPlayCircle, AiFillPauseCircle } from 'react-icons/ai'
+import {AiFillPlayCircle, AiFillPauseCircle,AiOutlineDown } from 'react-icons/ai'
 import {BiSkipNext,BiSkipPrevious} from 'react-icons/bi'
 
 const MusicPlayer = () => {
-const { id } = useParams()
-const item = Suggesting.find((item) => item.id === Number(id))
 const [isPlaying, setIsPlaying] = useState(false);
 const audioRef = useRef();
+const location = useLocation();
+const img = location.state.img;
+const alt = location.state.alt;
+const song = location.state.song;
+const artist = location.state.artist;
+const url = location.state.url;
 
 const handlePlay = () => {
   setIsPlaying(!isPlaying);
@@ -30,21 +33,22 @@ const handleTimeUpdate = () => {
   progressBar.style.width = `${percentage}%`;
 };
 
-
-
   return (
     <div className='musicPlayer'>
+    <div className='return-btn'>
+      <AiOutlineDown onClick={() => window.history.back()} />
+    </div>
     <div className='about-img'>
-        <img src={item.img} alt={item.alt}/>
+        <img src={img} alt={alt}/>
     </div>
         <div className='about-song'>
             <div className='names'>
-                <h1>{item.song}</h1>
-                <p>{item.artist}</p>
+                <h1>{song}</h1>
+                <p>{artist}</p>
             </div>
         <FaHeart/>
         </div>
-        <audio ref={audioRef} src={item.url} onTimeUpdate={handleTimeUpdate} onEnded={() => setIsPlaying}  />
+        <audio ref={audioRef} src={url} onTimeUpdate={handleTimeUpdate} onEnded={() => setIsPlaying}  />
         <div className="progress-bar-container">
         <div id="progress-bar" className="progress-bar"></div>
       </div>
