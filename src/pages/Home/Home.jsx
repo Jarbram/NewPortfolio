@@ -40,9 +40,9 @@ const Home = () => {
   const icons = [<FiGithub />, <FaLinkedin />, <BsInstagram />];
 
   const [buttons, setButtons] = useState([
-    { id: 1, label: "About", url: "#", selected: false },
-    { id: 2, label: "Projects and Services", url: "#", selected: false},
-    { id: 3, label: "Contact", url: "#", selected: false },
+    { id: 1, label: "About", url: "#about", selected: false },
+    { id: 2, label: "Projects and Services", url: "#portfolio", selected: false},
+    { id: 3, label: "Contact", url: "#contact", selected: false },
   ]);
 
   const firstSong = data.Suggesting[0];
@@ -99,7 +99,7 @@ const Home = () => {
       ))
     }
     </div>
-    <div className='suggestions-container'>
+    <div  id='about' className='suggestions-container'>
       {
         data.Suggesting.map((suggesting) => (
           <Suggestions
@@ -113,7 +113,9 @@ const Home = () => {
     </div>
     <Slider />
     <Portfolio /> 
-    <Contact />   
+    <a id='portfolio'></a>
+    <Contact />
+    <a id='contact'></a>   
     <Player 
     id={firstSong.id}
     img={firstSong.img}
