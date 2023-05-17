@@ -1,6 +1,6 @@
 .Contact{
+    margin: 0 12px; 
     margin-bottom: 9rem;
-    margin: 0 12px;
 }
 .Contact h1{
     font-size:18px;
@@ -21,7 +21,7 @@
     text-align:center;
     border: 1px solid transparent;
     transition: var(--transition);
-    width: 100%;
+    width: 70%;
 }
 .contact__option:hover{
     background: transparent;
@@ -37,7 +37,7 @@
     display:inline-block;
     font-size: 0.8rem;
     text-decoration: none;
-    color: var(--color-white);
+    color: var(--color-reaction);
 }
 .contact__option a:hover{
     color: var(--color-reaction);

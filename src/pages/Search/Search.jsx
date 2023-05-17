@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Search.css';
 import Footer from '../../components/Footer/Footer';
 import Player from '../../components/Player/Player';
-import { AiOutlineSearch } from 'react-icons/ai';
 import data from '../../data/data';
 
 const Search = () => {
   const [selectedSong, setSelectedSong] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
+  const [isSearchFixed, setIsSearchFixed] = useState(false);
+
 
   const handleSongClick = (song) => {
     if (song.song.toLowerCase().includes(searchTerm.toLowerCase())) {
@@ -15,12 +16,24 @@ const Search = () => {
     }
   };
   
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset;
+      const searchElement = document.getElementById('search');
+      const searchOffset = searchElement.offsetTop;
+  
+      setIsSearchFixed(scrollTop > searchOffset);
+    };
+  
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+  
 
   return (
     <div className='search-page'>
       <h1>Search</h1>
-      <div className='search'>
-        <AiOutlineSearch className='search-icon' />
+      <div className={`search ${isSearchFixed ? 'fixed-search' : ''}`} id="search">
         <input
           type='text'
           placeholder='What do you want to listen to?'

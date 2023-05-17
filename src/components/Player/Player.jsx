@@ -2,11 +2,28 @@ import React, { useState, useRef, useEffect } from 'react';
 import './Player.css';
 import { FaHeart, FaPlay, FaPause } from 'react-icons/fa';
 import { BsPcDisplay } from 'react-icons/bs';
+import { useNavigate } from 'react-router-dom';
+
+
 
 const Player = (props) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef();
+  const navigate = useNavigate();
 
+  const handleClick = () => {
+    navigate(`/musicPlayer/${props.id}`,{
+      state: {
+        id: props.id,
+        img: props.img,
+        alt: props.alt,
+        song: props.song,
+        artist: props.artist,
+        url: props.url
+      }
+    });
+  }
+  
   useEffect(() => {
     if (props.url) {
       setIsPlaying(true);
@@ -27,7 +44,7 @@ const Player = (props) => {
 
   return (
     <div className='player-container'>
-      <div className='song-container'>
+      <div className='song-container' onClick={handleClick} >
         <img src={props.img} alt={props.alt} />
         <div className='song-info'>
           <span className='song-name'>{props.song}</span>
