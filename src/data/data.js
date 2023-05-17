@@ -245,7 +245,7 @@ songs: [
         id:2,
         img:Portfolio2,
         alt:'photo',
-        song:"Abraham",
+        song:"Jarbram",
         artist:"Abraham",
         url:audio3, 
         lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
@@ -254,7 +254,7 @@ songs: [
         id:3,
         img:Portfolio3,
         alt:'photo',
-        song:"Abraham",
+        song:"About me",
         artist:"Abraham",
         url:audio4, 
         lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
@@ -263,7 +263,7 @@ songs: [
         id:4,
         img:Portfolio4,
         alt:'photo',
-        song:"Abraham",
+        song:"Travels",
         artist:"Abraham",
         url:audio4, 
         lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
@@ -272,7 +272,7 @@ songs: [
         id:5,
         img:Portfolio5,
         alt:'photo',
-        song:"Abraham",
+        song:"Travels",
         artist:"Abraham",
         url:audio5, 
         lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
@@ -281,7 +281,7 @@ songs: [
         id:6,
         img:Portfolio6,
         alt:'photo',
-        song:"Abraham",
+        song:"Car Service",
         artist:"Abraham",
         url:audio6, 
         lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
@@ -290,7 +290,7 @@ songs: [
         id:7,
         img:Portfolio7,
         alt:'photo',
-        song:"Abraham",
+        song:"Projects",
         artist:"Abraham",
         url:audio7, 
         lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
@@ -299,7 +299,7 @@ songs: [
         id:8,
         img:Portfolio8,
         alt:'photo',
-        song:"Abraham",
+        song:"Products",
         artist:"Abraham",
         url:audio8, 
         lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
@@ -308,7 +308,7 @@ songs: [
         id:9,
         img:Img1,
         alt:'photo',
-        song:"Abraham",
+        song:"Experience",
         artist:"Abraham",
         url:audio9, 
         lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
@@ -317,7 +317,7 @@ songs: [
         id:10,
         img:Img2,
         alt:'photo',
-        song:"Abraham",
+        song:"Music",
         artist:"Abraham",
         url:audio10, 
         lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
@@ -326,7 +326,7 @@ songs: [
         id:11,
         img:Img3,
         alt:'photo',
-        song:"Abraham",
+        song:"Pets",
         artist:"Abraham",
         url:audio11, 
         lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
@@ -335,7 +335,7 @@ songs: [
         id:12,
         img:Img4,
         alt:'photo',
-        song:"Abraham",
+        song:"Certifications",
         artist:"Abraham",
         url:audio12, 
         lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"

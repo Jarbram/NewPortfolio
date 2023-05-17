@@ -7,21 +7,33 @@ import data from '../../data/data';
 
 const Search = () => {
   const [selectedSong, setSelectedSong] = useState(null);
+  const [searchTerm, setSearchTerm] = useState('');
 
   const handleSongClick = (song) => {
-    setSelectedSong(song);
+    if (song.song.toLowerCase().includes(searchTerm.toLowerCase())) {
+      setSelectedSong(song);
+    }
   };
+  
 
   return (
     <div className='search-page'>
       <h1>Search</h1>
       <div className='search'>
         <AiOutlineSearch className='search-icon' />
-        <input type='text' placeholder='What do you want to listen to?' className='search-input' />
+        <input
+          type='text'
+          placeholder='What do you want to listen to?'
+          className='search-input'
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
       </div>
 
       <div className='search-results'>
-        {data.songs.map((song) => (
+        {data.songs
+          .filter((song) => song.song.toLowerCase().includes(searchTerm.toLowerCase()))
+          .map((song) => (
           <div key={song.id} className='result' onClick={() => handleSongClick(song)}>
             <img src={song.img} alt={song.alt} />
             <div className='result-info'>
