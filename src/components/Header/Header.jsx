@@ -8,11 +8,10 @@ return (
     <h1>{props.content}</h1>
     <div className='header-right'>
     {
-        props.icons.map((icon, index) => {
+        props.icons.map((icon) => {
             return (
-                <a key={index}>
-                
-                {icon}
+                <a key={icon.id} href={icon.url} >
+                {icon.icon}
                 </a>
             )
         })

@@ -19,3 +19,11 @@
     font-size: 23px;
     cursor: pointer;
 }
+
+.header-right a{
+    color : var(--color-white);
+}
+
+.header-right a:hover{
+    color : var(--color-reaction);
+}

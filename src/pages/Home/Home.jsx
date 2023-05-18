@@ -37,7 +37,21 @@ function getGreeting(time) {
 const Home = () => {
   const [time, setTime] = useState(getLocalTime());
   const [greeting, setGreeting] = useState(getGreeting(time));
-  const icons = [<FiGithub />, <FaLinkedin />, <BsInstagram />];
+  const icons = [
+    {
+      id: 1,
+    icon: <FiGithub  />,
+    url: "https://github.com/Jarbram",},
+    {
+    id: 2,
+    icon: <FaLinkedin />,
+    url : "https://www.linkedin.com/in/abraham-moises-huacchillo-castillo-7630b1210/",},
+    {
+    id: 3,
+    icon: <BsInstagram />,
+    url: "https://www.instagram.com/abrahamhuacchillo/",},
+  ];
+
 
   const [buttons, setButtons] = useState([
     { id: 1, label: "About", url: "#about", selected: false },
