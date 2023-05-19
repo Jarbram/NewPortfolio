@@ -16,6 +16,7 @@ const MusicPlayer = () => {
   const song = location.state.song;
   const artist = location.state.artist;
   const url = location.state.url;
+  const lyrics = location.state.lyrics;
 
   const handlePlay = () => {
     setIsPlaying(!isPlaying);
@@ -58,6 +59,9 @@ const MusicPlayer = () => {
         </div>
         <BiSkipNext />
       </div>
+      <div className='lyrics-container '>
+          <p className='lyrics'>{lyrics}</p>
+        </div>
     </div>
   );
 };

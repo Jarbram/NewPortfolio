@@ -19,7 +19,8 @@ const Player = (props) => {
         alt: props.alt,
         song: props.song,
         artist: props.artist,
-        url: props.url
+        url: props.url,
+        lyrics: props.lyrics
       }
     });
   }
@@ -45,7 +46,10 @@ const Player = (props) => {
   return (
     <div className='player-container'>
       <div className='song-container' onClick={handleClick} >
-        <img src={props.img} alt={props.alt} />
+      <div className='song-img'>
+      <img src={props.img} alt={props.alt} />
+      </div>
+        
         <div className='song-info'>
           <span className='song-name'>{props.song}</span>
           <span>{props.artist}</span>

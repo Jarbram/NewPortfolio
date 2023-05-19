@@ -137,6 +137,7 @@ const Home = () => {
     song={firstSong.song}
     artist={firstSong.artist}
     url={firstSong.url}
+    lyrics={firstSong.lyrics}
     />
     <Footer />
     </div>

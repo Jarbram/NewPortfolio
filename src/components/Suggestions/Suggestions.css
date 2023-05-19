@@ -1,18 +1,24 @@
 .suggestions{
     display: flex;
 }
-
-.suggestions img{
-    width: 55px;
-    height: 55px;
+.suggestions-img{
+    width:70px;
+    height:70px;
     border-radius: 10px 0 0 10px;
+    display: flex;
+    justify-content: center;
+}
+.suggestions-img img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
 }
 .suggestions-name{
     display: flex;
     align-items: center;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
-    height: 55px;
+    height: 70px;
     width: 125px;
     padding: 0 5px;
     background-color: var(--color-bg-variant);

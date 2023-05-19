@@ -65,6 +65,7 @@ const Search = () => {
           song={selectedSong.song}
           artist={selectedSong.artist}
           url={selectedSong.url}
+          lyrics={selectedSong.lyrics}
         />
       )}
 

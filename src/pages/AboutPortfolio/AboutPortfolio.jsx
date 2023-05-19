@@ -28,6 +28,7 @@ const AboutPortfolio = () => {
         song={portfolio.song}
         artist={portfolio.artist}
         url={portfolio.url}
+        lyrics={portfolio.lyrics}
         />
         <Footer />
     </div>

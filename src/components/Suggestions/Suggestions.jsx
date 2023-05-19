@@ -10,7 +10,10 @@ const Suggestions = (props) => {
   };
   return (
     <div className='suggestions' onClick={handleClick}>
-            <img src={props.img} alt={props.alt}/>
+    <div className='suggestions-img'>
+    <img src={props.img} alt={props.alt}/>
+    </div>
+            
             <div className='suggestions-name'>
                 <h3>{props.name}</h3>
             </div>
