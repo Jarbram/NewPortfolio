@@ -21,6 +21,9 @@ const About = () => {
         </div>
         <h1>About {suggestion.name}</h1>
         <p className='description'>{suggestion.description}</p>
+        <div className='lyrics-container '>
+          <p className='lyrics'>{suggestion.lyrics}</p>
+        </div>
         <Player 
           id={suggestion.id}
           img={suggestion.img}
