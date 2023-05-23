@@ -10,7 +10,7 @@ const AboutPortfolio = () => {
     const portfolio = data.portfolio.find((item) => item.id === Number(id))
   return (
     <div className='about'>
-        <div className='about-image'>
+        <div className='aboutPortfolio-image'>
             <img src={portfolio.img} alt={portfolio.alt}/>
         </div>
         <h1>About {portfolio.name}</h1>

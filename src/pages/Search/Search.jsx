@@ -48,7 +48,9 @@ const Search = () => {
           .filter((song) => song.song.toLowerCase().includes(searchTerm.toLowerCase()))
           .map((song) => (
           <div key={song.id} className='result' onClick={() => handleSongClick(song)}>
-            <img src={song.img} alt={song.alt} />
+            <div className='img-song'>
+              <img src={song.img} alt={song.alt} />
+            </div>
             <div className='result-info'>
               <h3>{song.song}</h3>
               <p>{song.artist}</p>
