@@ -33,7 +33,7 @@ const settings = {
                         <img src={port.img} alt={port.alt} />
                     </div>
                         <h3>{port.title}</h3>
-                        <p>{port.name}</p>
+                        <p>{port.artist}</p>
                     </div>
                 ))
             }

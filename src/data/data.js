@@ -35,15 +35,20 @@ import Img6_8 from '../assets/img6.8.jpg'
 import Img6_9 from '../assets/img6.9.jpg'
 
 
-import Portfolio1 from '../assets/portfolio1.jpg'
-import Portfolio2 from '../assets/portfolio2.jpeg'
-import Portfolio3 from '../assets/portfolio3.jpg'
-import Portfolio4 from '../assets/portfolio4.jpg'
-import Portfolio5 from '../assets/portfolio5.jpg'
+import Portfolio1 from '../assets/portfolio1.png'
+import Portfolio2 from '../assets/portfolio2.jpg'
+import Portfolio3 from '../assets/portfolio3.png'
+import Portfolio4 from '../assets/portfolio4.png'
+import Portfolio5 from '../assets/portfolio5.png'
 import Portfolio6 from '../assets/portfolio6.jpg'
-import Portfolio7 from '../assets/portfolio7.png'
-import Portfolio8 from '../assets/portfolio8.jpg'
-import Portfolio10 from '../assets/portfolio10.jpg'
+import Portfolio7 from '../assets/portfolio7.jpg'
+import Portfolio8 from '../assets/portfolio8.png'
+import Portfolio9 from '../assets/portfolio9.jpeg'
+import Portfolio10 from '../assets/portfolio10.jpeg'
+import Portfolio11 from '../assets/portfolio11.jpg'
+import Portfolio12 from '../assets/portfolio12.png'
+import Portfolio13 from '../assets/portfolio13.png'
+
 
 import audio2 from '../assets/audio2.mp3'
 import audio3 from '../assets/audio3.mp3'
@@ -172,130 +177,158 @@ Suggesting :[
 portfolio : [
     {
         id:1,
-        name: "Jarbram",
         img : Portfolio1 ,
-        alt:'photo',
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        song:'photo',
+        alt:'Docker Logo',
+        description: "Docker-manager: Simplify Docker container management with an interactive CLI tool in Go.",
         artist:'Jarbram',
-        title:'photo',  
+        title:'Docker Manager',  
         url: audio7,
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        github: 'https://github.com/Jarbram/pokedex-react',
-        demo: 'https://jarbram.github.io/pokedex-react/'
+        lyrics: "Docker-manager: Simplify Docker container management with a Go-based tool. Interactive CLI for listing, creating, deleting, starting, and stopping containers.Docker-manager is a Go-based tool that simplifies the management of Docker containers. It provides an interactive command-line interface (CLI) for easily listing containers, creating, deleting, starting, and stopping containers.This project was developed as part of my learning and practice with Docker. I hope it proves useful to other developers starting to work with Docker or seeking a more efficient way to manage their containers.Features:List running and stopped containers. Create new containers with customizable options. Delete existing containers. Start and stop containers. Display available Docker ports for easy port exposure when creating a container.",
+        github: 'https://github.com/Jarbram/Docker-manager',
     },
     {
         id:2,
         img : Portfolio2 ,
-        alt:'photo',
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        song:'photo',
+        alt:'mechanics working in a car',
+        description: "CarService: Web app for auto repair shop. Clients book appointments, track vehicle status. Technologies: PostgreSQL, ReactJS, Go.",
         artist:'Jarbram',
-        title:'photo', 
-        name: "Jarbram",
+        title:' Car Services', 
         url: audio8,
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        github: 'https://github.com/Jarbram/pokedex-react',
-        demo: 'https://jarbram.github.io/pokedex-react/'
+        lyrics: "CarService is a website for an auto repair shop where customers can register and request appointments for their vehicles. Through the website, customers can access a wide range of articles on vehicle care and make service requests. On the other hand, the auto repair team accepts the requests, registers the vehicles, and updates the status of each vehicle so that customers can track their progress without the need to be physically present at the shop. Once the vehicle is delivered, it disappears from the team's view to avoid any confusion. We utilized technologies such as PostgreSQL, ReactJS for the frontend, and Go for the backend, focusing on applying solid principles to achieve a scalable project. Currently, we are working towards implementing a clean architecture to further enhance the system.    During the development of CarService, I learned to design a complete web application from scratch, using modern technologies like ReactJS and Go. I gained experience in handling the interaction between the frontend and backend, implementing functionalities such as user registration, appointment requests, and vehicle status tracking. Additionally, I acquired knowledge about relational databases, utilizing PostgreSQL to store and manage information effectively. Applying solid principles in the development process allowed me to create more modular, maintainable, and scalable code. I am excited to continue improving the project and exploring more about clean architecture to optimize its performance and extensibility.",
+        github: 'https://github.com/Jarbram/CarService',
     },
     {
         id:3,
         img: Portfolio3 ,
-        alt:'photo',
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        song:'photo',
+        alt:'Gopher, its the pet the golang',
+        description: "Solid Go: Learn SOLID principles applied in Go through clear and simple examples. Elevate your Go programming skills. Visit portfolio for more.",
         artist:'Jarbram',
-        title:'photo',
-        name: "Jarbram",
+        title:'SOLID Go',
         url: audio9,
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        github: 'https://github.com/Jarbram/pokedex-react',
-        demo: 'https://jarbram.github.io/pokedex-react/'
+        lyrics: "Solid Go: A repository that applies SOLID principles in Go with clear and simple examples, making it easier to understand. Learning the SOLID principles provides a solid foundation for developing high-quality software, promoting code modularity, extensibility, and maintainability. By exploring this repository, you will discover how to apply SOLID principles in the specific context of Go, gaining invaluable knowledge for your growth as a developer. I invite you to visit my portfolio to learn more about this project and explore other works related to Go and best programming practices. Discover how to enhance your Go skills and take your projects to the next level!",
+        github: 'https://github.com/Jarbram/Solid-Go',
     },
     {
         id:4,
         img : Portfolio4 ,
-        alt:'photo',
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        alt:'Gopher, its the pet the golang',
+        description: "Design Pattern Go: Apply powerful design patterns in Go with clear examples for enhanced software development.",
         song:'photo',
         artist:'Jarbram',
-        title:'photo', 
-        name: "Jarbram",
+        title:'Design Patterns Go', 
         url: audio10,
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        github: 'https://github.com/Jarbram/pokedex-react',
-        demo: 'https://jarbram.github.io/pokedex-react/'
+        lyrics: "Design Pattern Go: A repository that applies design patterns in Go with clear and simple examples, making it easier to understand. Learning design patterns equips you with powerful tools to solve common software design problems. By exploring this repository, you will discover how to apply recognized design patterns in the specific context of Go, enhancing the structure, flexibility, and maintainability of your projects. You will gain valuable knowledge on utilizing patterns such as Singleton, Factory, Observer, and many more. I invite you to visit the repository and explore the practical and detailed examples that will strengthen your design skills in Go. Discover how to create more robust and efficient code in Go and take your projects to the next level!",
+        github: 'https://github.com/Jarbram/Desing_Pattern_Go',
     },
     {
         id:5,
         img : Portfolio5 ,
-        alt:'photo',
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        song:'photo',
+        alt:'view the project employee organization',
+        description: "Employee Organization: Streamline employee categorization and management. Interact and optimize team organization.",
         artist:'Jarbram',
-        title:'photo', 
-        name: "Jarbram",
+        title:'Employee Organization', 
         url: audio11,
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        lyrics: "Employee Organization is a project aimed at organizing employees into different categories such as frontend developers, backend developers, UX/UI designers, and more. Developed in ReactJS, this project leverages hooks and components to create an intuitive and user-friendly interface. Interact with the application to assign employees to their respective categories, manage their information, and maintain efficient team organization. Explore the project and experience the simplicity and effectiveness of this tool in employee management!",
         github: 'https://github.com/Jarbram/pokedex-react',
         demo: 'https://jarbram.github.io/pokedex-react/'
     },
     {
         id:6,
         img : Portfolio6 ,
-        alt:'photo',
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        song:'photo',
+        alt:'books',
+        description: "Book Market: Go project with Fiber and GORM for efficient CRUD operations. Manage books seamlessly.",
         artist:'Jarbram',
-        title:'photo', 
-        name: "Jarbram",
+        title:'Book Store', 
         url: audio12,
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        github: 'https://github.com/Jarbram/pokedex-react',
-        demo: 'https://jarbram.github.io/pokedex-react/'
+        lyrics: "Book Market is a project implemented in Go using Fiber and GORM to create a book marketplace system. This project utilizes CRUD (Create, Read, Update, Delete) functionalities to manage books in the database. Fiber is a fast and efficient web framework for Go, offering simple routing and high-performance request and response handling. GORM is an ORM (Object-Relational Mapping) library that simplifies database interaction and accelerates development. Explore the project and discover how to create, update, delete, and search books in this book marketplace implemented in Go.",
+        github: 'https://github.com/Jarbram/bookmark-api-fiber',
     },
     {
         id:7,
         img : Portfolio7,
-        alt:'photo',
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        song:'photo',
+        alt:'TAPE MEASURE AROUND AN APPLE',
+        description: "Tracker Calories: Go and ReactJS project for efficient calorie tracking. CRUD functionality and MongoDB integration.",
         artist:'Jarbram',
-        title:'photo', 
-        name: "Jarbram",
+        title:'Tracker Calories', 
         url: audio13,
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        github: 'https://github.com/Jarbram/pokedex-react',
-        demo: 'https://jarbram.github.io/pokedex-react/'
+        lyrics: "Tracker Calories is a project developed with Go and ReactJS using Bootstrap. On the Go side, Gin is used as the framework, and MongoDB serves as the database. This project implements a calorie tracker where you can record your meals and their calorie content, as well as edit and delete entries. The project focuses on applying CRUD (Create, Read, Update, Delete) functionalities to efficiently manage meal data. Explore this project and discover how to accurately track your calorie intake with this application developed in Go and ReactJS.",
+        github: 'https://github.com/Jarbram/go-tracker-calories',
     },
     {
         id:8,
         img : Portfolio8,
-        alt:'photo',
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        alt:'viw the website  macla bakery',
+        description: "Macla Bakery: Front-end development with Styled Components for a responsive and visually appealing website.",
         song:'photo',
         artist:'Jarbram',
-        title:'photo', 
+        title:'Macla Bakery', 
         name: "Jarbram",
         url: audio14,
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
+        lyrics: "In the Macla Bakery project, I had the opportunity to develop the front-end using Styled Components. Styled Components is a React library that allows writing CSS styles directly in the application's components. This provides greater modularity and facilitates the reusability of styles. I used Styled Components to create custom styles and ensure that the bakery's website looks appealing and consistent across all devices. It was exciting to work with this tool and enhance my skills in user interface development.",
         github: 'https://github.com/Jarbram/pokedex-react',
         demo: 'https://jarbram.github.io/pokedex-react/'
     },
     {
         id:9,
-        img : Portfolio10 ,
-        alt:'photo',
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        song:'photo',
+        img : Portfolio9 ,
+        alt:'LOGO the Marea Bartenders',
+        description: "Marea Bartenders: Boosting visibility with a customized ReactJS website for a bartending venture.",
         artist:'Jarbram',
-        title:'photo', 
-        name: "Jarbram",
+        title:'Marea Bartenders', 
         url: audio15,
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem",
-        github: 'https://github.com/Jarbram/pokedex-react',
-        demo: 'https://jarbram.github.io/pokedex-react/'
+        lyrics: "In the Marea Bartenders project, I worked on developing a website to promote and increase the visibility of a bartending venture. Using ReactJS, I created a custom project that met the client's requirements and expectations. It was an interesting project as it involved creating an attractive and functional design that reflected the essence and services offered by Marea Bartenders. I am thrilled to have contributed to the growth of this business and applied my web development skills to help them achieve their goals.",
+        github: 'https://github.com/Jarbram/MareaBartenders',
+        demo: 'https://jarbram.github.io/MareaBartenders/'
     },
+    {
+        id:10,
+        img : Portfolio10 ,
+        alt:'movie store',
+        description: "Go-Movies: CRUD operations in Go using Gorilla/Mux for robust web development.",
+        song:'photo',
+        title:'Movies CRUD',
+        artist:'Jarbram',
+        name: "Jarbram",
+        url: audio17,
+        lyrics: "Go-Movies is a CRUD project developed in Go using the Gorilla/Mux library. Gorilla/Mux is a powerful and flexible router for building web applications in Go. With Go-Movies, I was able to implement create, read, update, and delete operations to manage movies. This experience allowed me to enhance my skills in Go and learn how to efficiently utilize Gorilla/Mux to develop robust and scalable web applications.",
+        github: 'https://github.com/Jarbram/go-movies-crud',
+    },
+    {
+        id:11,
+        img : Portfolio11 ,
+        alt:'picture the world map',
+        description: "Go CRUD for Travels: Clean architecture, SOLID principles, SQLite, GORM. Mentored by Carlos García.",
+        song:'photo',
+        title:'GO CRUD for travels',
+        artist:'Jarbram',
+        url: audio17,
+        lyrics: "Go CRUD for Travels was developed in collaboration with a skilled backend developer in Go, who served as my mentor throughout the project. I gained valuable insights into managing a clean architecture and applying SOLID principles when writing code. We worked with a SQLite database and utilized GORM for interacting with it. I am immensely grateful for the opportunity to collaborate with Carlos García, who provided knowledge and guidance throughout the project.",
+        github: 'https://github.com/Jarbram/goTravel2.0',
+    },
+    {
+        id:12,
+        img : Portfolio12 ,
+        alt:'view the console of the project web scraping',
+        description: "Web Scraping with GO: Extracting data from web pages for automated information retrieval.",
+        title:'Web Scraping',
+        artist:'Jarbram',
+        url: audio17,
+        lyrics: "I developed a web scraping project using GO, which helped me gain knowledge about the concept of web scraping and its benefits. Web scraping is a technique used to extract information from web pages in an automated manner. Through this project, I explored the retrieval of structured data from websites, providing me with a broader understanding of manipulating and analyzing information on the web.",
+        github: 'https://github.com/Jarbram/webScraper',
+    },
+    {
+        id:13,
+        img : Portfolio13 ,
+        alt:'photo',
+        description: "Todo Web App: Manage tasks, track progress, and boost productivity with ReactJS.",
+        title:'To do Web App',
+        artist:'Jarbram',
+        url: audio17,
+        lyrics: "One of my first projects was developing a Todo Web App using ReactJS. It was a great learning experience where I gained proficiency in state management, working with hooks, and creating reusable components. This app has been extremely useful for organizing my daily programming tasks, as I can add, track progress, and mark completed tasks. At the end of the day, I can review what I've accomplished and feel a sense of productivity and achievement.",
+        github: 'https://github.com/Jarbram/Todos',
+        demo: 'https://jarbram.github.io/Todos/' 
+    },
+
 ],
 
 songs: [

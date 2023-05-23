@@ -13,7 +13,7 @@ const AboutPortfolio = () => {
         <div className='aboutPortfolio-image'>
             <img src={portfolio.img} alt={portfolio.alt}/>
         </div>
-        <h1>About {portfolio.name}</h1>
+        <h1>About {portfolio.title}</h1>
         <p className='description'>{portfolio.description}</p>
         <div className='button-container'>
         <a href={portfolio.github} className='btn' target="_blank">GitHub</a>
@@ -25,7 +25,7 @@ const AboutPortfolio = () => {
         id={portfolio.id}
         img={portfolio.img}
         alt={portfolio.alt}
-        song={portfolio.song}
+        song={portfolio.title}
         artist={portfolio.artist}
         url={portfolio.url}
         lyrics={portfolio.lyrics}

@@ -1,7 +1,7 @@
 .button-container{
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 350px;
 }
@@ -12,6 +12,7 @@
     width: 40%;
     height: 40px;
     border-radius: 10px;
+    margin-left: 10px;
     background-color: var(--color-bg-variant);
     color: var(--color-white);
 }
