@@ -1,17 +1,120 @@
-.search-page{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color-bg);
+/* styles.css (o tu archivo de estilos) */
+
+/* Estilos para pantalla móvil */
+.search-page {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg);
 }
 
 .search-page h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding: 0 14px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background-color: var(--color-bg);
+  margin-bottom: 10px;
+  border: none;
+}
+
+.search-input {
+  width: 96%;
+  height: 45px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding-left: 10px;
+  color: var(--color-bg-variant);
+  border-radius: 12px;
+}
+
+.fixed-search {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 150px;
+  gap: 12px;
+  padding: 5px 14px;
+}
+
+.result {
+  display: flex;
+  gap: 10px;
+}
+
+.img-song {
+  width: 65px;
+  height: 65px;
+  border-radius: 8px;
+  margin-right: 10px; /* Reducimos el margen para la vista móvil */
+  display: flex;
+  justify-content: center;
+}
+
+.result img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilos para la vista de escritorio */
+@media (min-width: 768px) {
+  .search {
+    width: 50%; /* Reducimos el ancho para la vista de escritorio */
+  }
+
+  .search-input {
+    width: 100%; /* Ancho completo para la vista de escritorio */
+  }
+
+  .search-results {
+    flex-direction: row; /* Cambiamos la dirección para que sea en fila */
+    flex-wrap: wrap; /* Permitimos que los resultados se ajusten en filas */
+    margin-bottom: 30px; /* Ajustamos el margen inferior */
+  }
+
+  .img-song {
+    width: 100px; /* Aumentamos el tamaño de la imagen */
+    height: 100px; /* Aumentamos el tamaño de la imagen */
+    margin-right: 20px; /* Ajustamos el margen para la vista de escritorio */
+  }
+}
+/* styles.css (o tu archivo de estilos) */
+
+/* Estilos para pantalla móvil */
+.search-page {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-bg);
+    padding-bottom: 150px; /* Añadimos un espacio inferior para evitar superposiciones */
+  }
+  
+  .search-page h1 {
     font-size: 22px;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 15px;
     padding: 0 14px;
-}
-.search{
+  }
+  
+  .search {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,8 +123,9 @@
     background-color: var(--color-bg);
     margin-bottom: 10px;
     border: none;
-}
-.search-input{
+  }
+  
+  .search-input {
     width: 96%;
     height: 45px;
     border: none;
@@ -30,36 +134,63 @@
     padding-left: 10px;
     color: var(--color-bg-variant);
     border-radius: 12px;
-}
-.fixed-search {
+  }
+  
+  .fixed-search {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 999;
   }
-.search-results{
+  
+  .search-results {
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    margin-bottom: 150px;
-    gap:12px;
+    gap: 12px;
     padding: 5px 14px;
-}
-.result{
+  }
+  
+  /* Nuevos estilos para mostrar resultados como cards en móvil */
+  .result {
     display: flex;
     gap: 10px;
-}
-.img-song{
+    padding: 12px;
+    border-radius: 12px;
+    background-color: var(--color-bg-variant); /* Fondo para las cards */
+  }
+  
+  .img-song {
     width: 65px;
     height: 65px;
     border-radius: 8px;
-    margin-right: 10px;
     display: flex;
     justify-content: center;
-}
-.result img{
-    width: auto;
+    align-items: center; /* Centramos verticalmente la imagen */
+    overflow: hidden; /* Para evitar desbordamientos de imagen */
+  }
+  
+  .result img {
+    width: 100%;
     height: 100%;
     object-fit: cover;
-}
+  }
+  
+  /* Estilos para la vista de escritorio */
+  @media (min-width: 768px) {
+    .search-results {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .result {
+      flex: 0 0 calc(33.33% - 20px); /* Tres columnas en vista de escritorio */
+    }
+  
+    .result:last-child {
+      margin-bottom: 0; /* Eliminamos el margen inferior del último elemento de cada fila */
+    }
+  }
+  

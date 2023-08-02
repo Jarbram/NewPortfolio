@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import './MusicPlayer.css';
 import { useLocation } from 'react-router-dom';
 import { FaHeart } from 'react-icons/fa';
-import { AiFillPlayCircle, AiFillPauseCircle, AiOutlineDown } from 'react-icons/ai';
+import { AiFillPlayCircle, AiFillPauseCircle, AiOutlineClose } from 'react-icons/ai';
 import { BiSkipNext, BiSkipPrevious } from 'react-icons/bi';
 
 const MusicPlayer = () => {
@@ -36,7 +36,7 @@ const MusicPlayer = () => {
   return (
     <div className='musicPlayer'>
       <div className='return-btn'>
-        <AiOutlineDown onClick={() => window.history.back()} />
+        <AiOutlineClose onClick={() => window.history.back()} />
       </div>
       <div className='about-img'>
         <img src={img} alt={alt} />

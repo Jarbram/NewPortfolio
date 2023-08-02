@@ -1,6 +1,6 @@
-import React from 'react'
-import './Slider.css'
-import {  Autoplay, Pagination } from 'swiper';
+import React from 'react';
+import './Slider.css';
+import { Autoplay, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -10,54 +10,48 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
 
-
-
 const Slider = () => {
   const stories = [
-    
-    { id:1,
-      image:'https://images.pexels.com/photos/12765768/pexels-photo-12765768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      alt:'photo',
+    {
+      id: 1,
+      image: 'https://images.pexels.com/photos/12765768/pexels-photo-12765768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      alt: 'photo',
     },
     {
-      id:2,
-      image:'https://images.pexels.com/photos/14712543/pexels-photo-14712543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      id: 2,
+      image: 'https://images.pexels.com/photos/14712543/pexels-photo-14712543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     }
-      ]
+  ];
 
   return (
     <div className='slider'>
-    <div className='initial-slogan'>
-        <img src='https:github.com/jarbram.png'/>
-        <p className=''>Discover more about me</p>
-    </div>
-    <div className='slider-container'>
-
-    <Swiper 
-    modules={[Autoplay, Pagination]}
-    spaceBetween={40}
-    slidesPerView={1}
-    loop={true}
-    autoplay={{
-      delay: 2500,
-      disableOnInteraction: false
-      }}
-    pagination={{ clickable: true }}
-    >
-      {
-        stories.map(({id,image,alt}) => (
-          <SwiperSlide key={id}>
-          <div className="project__img-container">
-          <img src={image} alt={alt} />
-          </div>
+      <div className='initial-slogan'>
+        <img src='https://github.com/jarbram.png' alt='profile' />
+        <p>Discover more about me</p>
+      </div>
+      <div className='slider-container'>
+        <Swiper
+          modules={[Autoplay, Pagination]}
+          spaceBetween={40}
+          slidesPerView={1}
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{ clickable: true }}
+        >
+          {stories.map(({ id, image, alt }) => (
+            <SwiperSlide key={id}>
+              <div className="project__img-container">
+                <img src={image} alt={alt} />
+              </div>
             </SwiperSlide>
-        ))
-      }
-      
-    </Swiper>
+          ))}
+        </Swiper>
+      </div>
     </div>
-    </div>
-    )
-}
+  );
+};
 
-export default Slider
+export default Slider;

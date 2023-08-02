@@ -1,20 +1,25 @@
-.musicPlayer{
+/* MusicPlayer.css */
+/* Estilos generales para el componente MusicPlayer */
+.musicPlayer {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 130px 0;
     padding: 0 28px;
-} 
-.about-img{
+  }
+  
+  .about-img {
     width: 350px;
     height: 390px;
-}
-.about-img img{
+  }
+  
+  .about-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-.about-song{
+  }
+  
+  .about-song {
     margin-top: 60px;
     margin-bottom: 20px;
     width: 100%;
@@ -23,42 +28,44 @@
     align-items: center;
     color: var(--color-reaction);
     font-size: 1.5rem;
-}
-.names{
+  }
+  
+  .names {
     display: flex;
     flex-direction: column;
     gap: 5px;
     color: var(--color-white);
     font-size: 15px;
-}
-.names h1{
+  }
+  
+  .names h1 {
     font-size: 25px;
-}
-
-.progress-bar-container {
+  }
+  
+  .progress-bar-container {
     margin-top: 17px;
     width: 100%;
     height: 2px;
-    background-color:var(--color-bg-variant);
+    background-color: var(--color-bg-variant);
     border-radius: 2px;
     overflow: hidden;
-}
-
-.progress-bar {
+  }
+  
+  .progress-bar {
     height: 100%;
-    background-color:var(--color-white);
+    background-color: var(--color-white);
     transition: width 0.1s linear;
-}
-
-.audio-player {
+  }
+  
+  .audio-player {
     margin-top: 40px;
     display: flex;
     align-items: center;
     font-size: 3.5rem;
     gap: 20px;
-}
-
-.play-pause-btn {
+  }
+  
+  .play-pause-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,24 +78,25 @@
   .play-pause-btn:hover {
     color: #666;
   }
-
-  .lyrics-container{
+  
+  .lyrics-container {
     margin-top: 20px;
-    width: 340px;
+    width: 100%; /* Ajustamos el ancho al 100% en la vista móvil */
     padding: 14px;
     background-color: var(--color-bg-variant);
     border-radius: 10px;
-}
-.lyrics{
+  }
+  
+  .lyrics {
     font-size: 16px;
     color: var(--color-white);
-    text-align:justify;
+    text-align: justify;
     overflow: hidden;
     word-wrap: break-word;
     text-overflow: ellipsis;
-}
+  }
   
-.return-btn{
+  .return-btn {
     margin-top: -100px;
     margin-bottom: 130px;
     left: 0;
@@ -98,4 +106,17 @@
     color: var(--color-white);
     cursor: pointer;
     font-size: 1.5rem;
-}
+  }
+  
+  /* Estilos para la vista de escritorio */
+  @media (min-width: 768px) {
+    .about-img {
+      width: 500px; /* Ajustamos el ancho en la vista de escritorio */
+      height: 550px; /* Ajustamos la altura en la vista de escritorio */
+    }
+  
+    .lyrics-container {
+      width: 700px; /* Restauramos el ancho en la vista de escritorio */
+    }
+  }
+  

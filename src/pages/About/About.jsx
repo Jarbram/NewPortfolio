@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './About.css';
 import { useParams } from 'react-router-dom';
 import data from '../../data/data';
 import Player from '../../components/Player/Player';
 import Footer from '../../components/Footer/Footer';
-import { IoIosArrowBack } from 'react-icons/io';
 import { AiFillCaretLeft, AiFillCaretRight } from 'react-icons/ai';
 
 const About = () => {
@@ -25,9 +24,6 @@ const About = () => {
 
   return (
     <div className="about">
-      <div className="back-btn">
-        <IoIosArrowBack onClick={() => window.history.back()} />
-      </div>
       <h1>About {suggestion.name}</h1>
       <div className="about-image-extra">
         {suggestion.img_extra.map((image,index) => (

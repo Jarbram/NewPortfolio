@@ -54,24 +54,14 @@ const Home = () => {
 
 
   const [buttons, setButtons] = useState([
-    { id: 1, label: "About", url: "#about", selected: false },
-    { id: 2, label: "Projects and Services", url: "#portfolio", selected: false},
-    { id: 3, label: "Contact", url: "#contact", selected: false },
+    { id: 1, label: "About", url: "#about" },
+    { id: 2, label: "Projects and Services", url: "#portfolio"},
+    { id: 3, label: "Contact", url: "#contact" },
   ]);
 
   const firstSong = data.Suggesting[0];
   const [showResetButton, setShowResetButton] = useState(false);
 
-  const handleButtonClick = (buttonId) => {
-    setButtons(
-      buttons.map((button) =>
-        button.id === buttonId
-          ? { ...button, selected: true }
-          : { ...button, selected: false }
-      )
-    );
-    setShowResetButton(true);
-  };
 
   const handleReset = () => {
     setButtons(
@@ -83,7 +73,6 @@ const Home = () => {
     setShowResetButton(false);
   };
 
-  const selectedButton = buttons.find((button) => button.selected);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -106,9 +95,6 @@ const Home = () => {
           key={button.id}
           label={button.label}
           url={button.url}
-          onClick={() => handleButtonClick(button.id)}
-          selected={button.selected}
-          visible={!selectedButton || selectedButton.id === button.id}
         />
       ))
     }

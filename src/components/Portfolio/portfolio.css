@@ -1,36 +1,47 @@
-.portfolio h1{
-    font-size:18px;
+/* styles.css (o tu archivo de estilos) */
+
+.portfolio h1 {
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 1rem;
     margin-left: 10px;
-}
-.portfolio{
+  }
+  
+  .portfolio {
     position: relative;
-    width: 100%; /* Altura fija */
+    width: 100%;
     overflow: hidden;
-}
-.portfolio-container{
+  }
+  
+  .portfolio-container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap; /* En vez de justify-content: space-between */
     margin-bottom: 1rem;
-}
-.portfolio-item{
+  }
+  
+  .portfolio-item {
+    flex: 0 0 48%; /* En pantallas móviles, 48% para que haya dos elementos por fila */
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
     padding: 10px;
-}
-.portfolio-info{
+  }
+  
+  .portfolio-info {
     font-size: 12px;
     font-weight: 400;
-}
-.portfolio-img{
-    width: 120px;
-    height: 120px
-}
-.slick-slide img {
+  }
+  
+  .portfolio-img {
+    width: 100%; /* La imagen ocupa todo el ancho disponible */
+    height: 200px; /* Altura fija para todas las imágenes */
+    object-fit: cover;
+  }
+  
+  /* Estilos para la biblioteca Slick en versión móvil */
+  .slick-slide img {
     width: 100%;
-    height: 100%;
+    height: 200px; /* Misma altura que las imágenes del carrusel */
     object-fit: cover;
   }
   
@@ -41,5 +52,12 @@
   
   .slick-dots li button:before {
     color: black;
+  }
+  
+  /* Media query para ajustar los estilos en pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .portfolio-item {
+      flex: 0 0 100%; /* En pantallas móviles, 100% para que ocupe todo el ancho */
+    }
   }
   

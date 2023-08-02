@@ -1,49 +1,93 @@
-.slider{
+/* Slider.css */
+.slider {
     margin-top: 10px;
-}
-.initial-slogan{
+  }
+  
+  .initial-slogan {
     display: flex;
     align-items: center;
-}
-.initial-slogan img{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .initial-slogan img {
     width: 30px;
     height: 30px;
     object-fit: cover;
     border-radius: 50%;
-}
-.initial-slogan p{
-    margin-left: 10px;
-    font-size: 12px;
-    font-weight: 600;
-}
-.slider-container{
+    margin-right: 10px;
+  }
+  
+  .slider-container {
+    margin-top: 10px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .project__img-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
-}
-.project__img-container{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:center;
-}
-.project__img-container img{
-    width:390px;
-    height:auto;
-    border-radius:20px;
-    margin-bottom:1rem;
-}
-.swiper-pagination {
-    position: relative;
-    padding: 12px;
-    height: 100%;
-    z-index: 0;
-}
-.swiper-pagination-clickable .swiper-pagination-bullet {
-    background: var(--color-white);
-    width: 150px;
-    height: 2px;
-    border-radius: 0;
-}
-
+  }
+  
+  .project__img-container img {
+    width: 100%;
+    max-width: 390px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  .swiper-pagination {
+    display: none; /* Ocultamos la paginación en la vista móvil */
+  }
+  
+  /* Estilos para la vista de escritorio */
+  @media (min-width: 768px) {
+    .slider {
+      margin-top: 30px;
+    }
+  
+    .initial-slogan {
+      font-size: 18px;
+    }
+  
+    .initial-slogan img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .slider-container {
+      margin-top: 30px;
+    }
+  
+    .project__img-container img {
+      max-width: 600px;
+      margin-bottom: 0;
+    }
+  
+    .swiper-pagination {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      z-index: 1;
+    }
+  
+    .swiper-pagination-bullet {
+      background: var(--color-white);
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      opacity: 1;
+      margin: 0 4px;
+      cursor: pointer;
+    }
+  
+    .swiper-pagination-bullet-active {
+      background: var(--color-primary);
+    }
+  }
+  

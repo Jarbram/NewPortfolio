@@ -17,7 +17,6 @@
 
 #button:active,
 #button:focus{
-    background-color: var(--color-reaction);
     color: var(--color-bg);
     border-radius: 18px 18px 18px 18px;
 }

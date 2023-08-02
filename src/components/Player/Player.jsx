@@ -4,15 +4,13 @@ import { FaHeart, FaPlay, FaPause } from 'react-icons/fa';
 import { BsPcDisplay } from 'react-icons/bs';
 import { useNavigate } from 'react-router-dom';
 
-
-
 const Player = (props) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef();
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/musicPlayer/${props.id}`,{
+    navigate(`/musicPlayer/${props.id}`, {
       state: {
         id: props.id,
         img: props.img,
@@ -20,11 +18,11 @@ const Player = (props) => {
         song: props.song,
         artist: props.artist,
         url: props.url,
-        lyrics: props.lyrics
-      }
+        lyrics: props.lyrics,
+      },
     });
-  }
-  
+  };
+
   useEffect(() => {
     if (props.url) {
       setIsPlaying(true);
@@ -45,11 +43,10 @@ const Player = (props) => {
 
   return (
     <div className='player-container'>
-      <div className='song-container' onClick={handleClick} >
-      <div className='song-img'>
-      <img src={props.img} alt={props.alt} />
-      </div>
-        
+      <div className='song-container' onClick={handleClick}>
+        <div className='song-img'>
+          <img src={props.img} alt={props.alt} />
+        </div>
         <div className='song-info'>
           <span className='song-name'>{props.song}</span>
           <span>{props.artist}</span>

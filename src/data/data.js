@@ -72,7 +72,7 @@ Suggesting :[
     { 
         id: 1, 
         name: "Abraham", 
-        img: Img1,
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img1.jpg?alt=media&token=fc82a49f-1663-470b-8121-404a997231fa",
         img_extra:[
                 {id:2, src:Img1_1, alt: "photo",},
                 {id:3, src:Img1_2, alt: "photo",},
