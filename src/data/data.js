@@ -1,55 +1,3 @@
-import Img1 from '../assets/img1.jpg'
-import Img2 from '../assets/img2.jpg'
-import Img3 from '../assets/img3.jpg'
-import Img4 from '../assets/img4.jpg'
-import Img5 from '../assets/img5.jpg'
-import Img6 from '../assets/img6.jpg'
-
-import Img1_1 from '../assets/img1.1.jpg'
-import Img1_2 from '../assets/img1.2.jpg'
-import Img1_3 from '../assets/img1.3.jpg'
-import Img1_4 from '../assets/img1.4.jpg'
-
-import Img2_1 from '../assets/img2.1.jpg'
-
-import Img3_1 from '../assets/img3.1.jpg'
-import Img3_2 from '../assets/img3.2.jpg'
-import Img3_3 from '../assets/img3.3.jpg'
-import Img3_4 from '../assets/img3.4.jpg'
-import Img3_5 from '../assets/img3.5.jpg'
-import Img3_6 from '../assets/img3.6.jpg'
-
-import Img4_1 from '../assets/img4.1.jpg'
-
-import Img5_1 from '../assets/img5.1.jpg'
-import Img5_2 from '../assets/img5.2.jpg'
-import Img5_3 from '../assets/img5.3.jpg'
-
-import Img6_1 from '../assets/img6.1.jpg'
-import Img6_3 from '../assets/img6.3.jpg'
-import Img6_4 from '../assets/img6.4.jpg'
-import Img6_5 from '../assets/img6.5.jpg'
-import Img6_6 from '../assets/img6.6.jpg'
-import Img6_7 from '../assets/img6.7.jpg'
-import Img6_8 from '../assets/img6.8.jpg'
-import Img6_9 from '../assets/img6.9.jpg'
-
-
-import Portfolio1 from '../assets/portfolio1.png'
-import Portfolio2 from '../assets/portfolio2.jpg'
-import Portfolio3 from '../assets/portfolio3.png'
-import Portfolio4 from '../assets/portfolio4.png'
-import Portfolio5 from '../assets/portfolio5.png'
-import Portfolio6 from '../assets/portfolio6.jpg'
-import Portfolio7 from '../assets/portfolio7.jpg'
-import Portfolio8 from '../assets/portfolio8.png'
-import Portfolio9 from '../assets/portfolio9.jpeg'
-import Portfolio10 from '../assets/portfolio10.jpeg'
-import Portfolio11 from '../assets/portfolio11.jpg'
-import Portfolio12 from '../assets/portfolio12.png'
-import Portfolio13 from '../assets/portfolio13.png'
-
-
 import audio2 from '../assets/audio2.mp3'
 import audio3 from '../assets/audio3.mp3'
 import audio4 from '../assets/audio4.mp3'
@@ -74,10 +22,10 @@ Suggesting :[
         name: "Abraham", 
         img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img1.jpg?alt=media&token=fc82a49f-1663-470b-8121-404a997231fa",
         img_extra:[
-                {id:2, src:Img1_1, alt: "photo",},
-                {id:3, src:Img1_2, alt: "photo",},
-                {id:4, src:Img1_3, alt: "photo",},
-                {id:5, src:Img1_4, alt: "photo",},
+                {id:2, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img1.1.jpg?alt=media&token=9d7fd30c-29c3-4bf9-9451-ffeffac33349", alt: "photo",},
+                {id:3, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img1.2.jpg?alt=media&token=533c3478-c4b6-4ce5-9fb8-057172ca93d4", alt: "photo",},
+                {id:4, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img1.3.jpg?alt=media&token=aae7b998-69d4-46c6-ba85-0b877d96d0ff", alt: "photo",},
+                {id:5, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img1.4.jpg?alt=media&token=e2f77d37-c08e-44b9-92b0-219ce1da1580", alt: "photo",},
         ] ,
         alt: "photo",
         description: " Greetings! Welcome to meet Abraham, a curious and passionate mind!",
@@ -89,10 +37,10 @@ Suggesting :[
     { 
         id: 2, 
         name: "Jarbram", 
-        img: Img2, 
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img2.jpg?alt=media&token=38847ea0-917a-484b-a2af-4940570eadda", 
         img_extra:[
-            {id:2, src:Img2_1, alt: "photo",},
-            {id:3, src:Img2, alt: "photo",},
+            {id:2, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img2.1.jpg?alt=media&token=098fb3cd-1f5b-4cfa-948e-5d68cf299d1f", alt: "photo",},
+            {id:3, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img2.jpg?alt=media&token=38847ea0-917a-484b-a2af-4940570eadda", alt: "photo",},
     ] ,
         alt: "photo",
         description: "Hello there! I'm Jarbram, Abraham's alter ego. Passionate about programming and technology, I invite you to explore this exciting world together. Welcome to my world as Jarbram!",
@@ -105,14 +53,14 @@ Suggesting :[
     { 
         id: 3, 
         name: "Hobbies", 
-        img: Img3,
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img3.jpg?alt=media&token=d08c6e5a-8a96-40d7-aa14-72193af181d0",
         img_extra:[
-            {id:2, src:Img3_1, alt: "photo",},
-            {id:3, src:Img3_2, alt: "photo",},
-            {id:4, src:Img3_3, alt: "photo",},
-            {id:5, src:Img3_4, alt: "photo",},
-            {id:6, src:Img3_5, alt: "photo",},
-            {id:7, src:Img3_6, alt: "photo",}
+            {id:2, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img3.1.jpg?alt=media&token=3331cc14-9dff-4403-8884-6051b611e1ff", alt: "photo",},
+            {id:3, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img3.2.jpg?alt=media&token=514a5467-0d2d-4f18-a9ff-0723429148b5", alt: "photo",},
+            {id:4, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img3.3.jpg?alt=media&token=3ae8972d-d64f-41f8-9630-47365047e7a4", alt: "photo",},
+            {id:5, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img3.4.jpg?alt=media&token=4ce23036-a9c0-46a8-b08c-17140dad5a9d", alt: "photo",},
+            {id:6, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img3.5.jpg?alt=media&token=fbd9f867-6dff-465e-9357-45b9a902ddff", alt: "photo",},
+            {id:7, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img3.6.jpg?alt=media&token=cad6b8d0-b43b-429c-943e-66165b9bffdc", alt: "photo",}
     ] ,
         alt: "photo",
         description: "Each twist of the throttle unleashes adrenaline. I enjoy modifying motorcycles, playing instruments, and practicing sports. I find balance between speed and creativity.",
@@ -124,10 +72,10 @@ Suggesting :[
     { 
         id: 4, 
         name: "Idioms", 
-        img: Img4, 
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img4.jpg?alt=media&token=aa11be76-d930-4920-970b-6e6e8ace1651", 
         img_extra:[
-            {id:2, src:Img4_1, alt: "photo",},
-            {id:5, src:Img4, alt: "photo",},
+            {id:2, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img4.1.jpg?alt=media&token=63507562-c970-48cf-af74-4d91d569ee44", alt: "photo",},
+            {id:5, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img4.jpg?alt=media&token=aa11be76-d930-4920-970b-6e6e8ace1651", alt: "photo",},
     ] ,
         alt: "photo",
         description: "¡Hola! Hello! Oi! ¡Estoy felizmente immersed en el mundo de los idiomas!, Eu estou aprendendo Português también! Let's embark on this language adventure together!",
@@ -139,11 +87,11 @@ Suggesting :[
     { 
         id: 5, 
         name: "Experience", 
-        img: Img5, 
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img5.jpg?alt=media&token=7bbfca28-5055-4095-a62a-cd552b9d4819", 
         img_extra:[
-            {id:2, src:Img5_1, alt: "photo",},
-            {id:3, src:Img5_2, alt: "photo",},
-            {id:4, src:Img5_3, alt: "photo",},
+            {id:2, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img5.1.jpg?alt=media&token=1f393904-d193-4f6f-8b97-baf8bf4c9208", alt: "photo",},
+            {id:3, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img5.2.jpg?alt=media&token=55348442-636b-4b0d-abba-3538b19a27d4", alt: "photo",},
+            {id:4, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img5.3.jpg?alt=media&token=1c7bcbd5-ed90-41d3-bc2a-7a43532c2ce3", alt: "photo",},
     ] ,
         alt: "photo",
         description: "Each role has enriched my professional profile and provided me with specific skills. I am excited to share how these experiences have contributed to my growth and development.",
@@ -154,16 +102,16 @@ Suggesting :[
     { 
         id: 6, 
         name: "Trips", 
-        img: Img6, 
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img6.jpg?alt=media&token=0e7747fc-4136-4619-ba13-3e1b5758040c", 
         img_extra:[
-            {id:2, src:Img6_1, alt: "photo",},
-            {id:4, src:Img6_3, alt: "photo",},
-            {id:5, src:Img6_4, alt: "photo",},
-            {id:6, src:Img6_5, alt: "photo",},
-            {id:7, src:Img6_6, alt: "photo",},
-            {id:8, src:Img6_7, alt: "photo",},
-            {id:9, src:Img6_8, alt: "photo",},
-            {id:10, src:Img6_9, alt: "photo",},
+            {id:2, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img6.1.jpg?alt=media&token=f4b6d180-25f3-4d98-a272-7fac685fd3f9", alt: "photo",},
+            {id:4, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img6.3.jpg?alt=media&token=90c4acd4-0dc1-4af2-80bb-c6391f47953d", alt: "photo",},
+            {id:5, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img6.4.jpg?alt=media&token=61f1f401-cfb0-486b-90a1-56c2fa508c97", alt: "photo",},
+            {id:6, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img6.5.jpg?alt=media&token=5c5cee22-7ce7-4b84-aa07-88e8b011e7d3", alt: "photo",},
+            {id:7, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img6.6.jpg?alt=media&token=92c4fd7c-2ea4-4168-8302-13ed6f7c19f3", alt: "photo",},
+            {id:8, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img6.7.jpg?alt=media&token=57f4c5f3-ea39-449c-b425-4f9645d23dcf", alt: "photo",},
+            {id:9, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img6.8.jpg?alt=media&token=d0e916f4-0107-4777-a68b-f482e214332a", alt: "photo",},
+            {id:10, src:"https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img6.9.jpg?alt=media&token=42e52bc2-ee2f-4e9e-97c2-555ab04e4c8c", alt: "photo",},
     ] ,
         alt: "photo",
         description: "Travel expands horizons and enriches the soul.",
@@ -177,7 +125,7 @@ Suggesting :[
 portfolio : [
     {
         id:1,
-        img : Portfolio1 ,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio1.png?alt=media&token=fcb9171e-ac9b-44f7-bc77-da810d82910f" ,
         alt:'Docker Logo',
         description: "Docker-manager: Simplify Docker container management with an interactive CLI tool in Go.",
         artist:'Jarbram',
@@ -188,7 +136,7 @@ portfolio : [
     },
     {
         id:2,
-        img : Portfolio2 ,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio2.jpg?alt=media&token=68ae3f29-6455-4900-99cf-73fc85c6f873" ,
         alt:'mechanics working in a car',
         description: "CarService: Web app for auto repair shop. Clients book appointments, track vehicle status. Technologies: PostgreSQL, ReactJS, Go.",
         artist:'Jarbram',
@@ -199,7 +147,7 @@ portfolio : [
     },
     {
         id:3,
-        img: Portfolio3 ,
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio3.png?alt=media&token=3e21c4df-18db-40db-bb44-ebf4fd916699" ,
         alt:'Gopher, its the pet the golang',
         description: "Solid Go: Learn SOLID principles applied in Go through clear and simple examples. Elevate your Go programming skills. Visit portfolio for more.",
         artist:'Jarbram',
@@ -210,7 +158,7 @@ portfolio : [
     },
     {
         id:4,
-        img : Portfolio4 ,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio4.png?alt=media&token=a9bc05ad-0572-438f-8a1e-0a2835fdd9bd" ,
         alt:'Gopher, its the pet the golang',
         description: "Design Pattern Go: Apply powerful design patterns in Go with clear examples for enhanced software development.",
         song:'photo',
@@ -222,7 +170,7 @@ portfolio : [
     },
     {
         id:5,
-        img : Portfolio5 ,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio5.png?alt=media&token=6127807a-65b9-49d3-88f4-b28d92afcc52" ,
         alt:'view the project employee organization',
         description: "Employee Organization: Streamline employee categorization and management. Interact and optimize team organization.",
         artist:'Jarbram',
@@ -234,7 +182,7 @@ portfolio : [
     },
     {
         id:6,
-        img : Portfolio6 ,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio6.jpg?alt=media&token=5e263291-7292-4f24-84b3-6d134c9ec1b0" ,
         alt:'books',
         description: "Book Market: Go project with Fiber and GORM for efficient CRUD operations. Manage books seamlessly.",
         artist:'Jarbram',
@@ -245,7 +193,7 @@ portfolio : [
     },
     {
         id:7,
-        img : Portfolio7,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio7.jpg?alt=media&token=1635ccb8-7068-43aa-b94a-739c064fd25a",
         alt:'TAPE MEASURE AROUND AN APPLE',
         description: "Tracker Calories: Go and ReactJS project for efficient calorie tracking. CRUD functionality and MongoDB integration.",
         artist:'Jarbram',
@@ -256,7 +204,7 @@ portfolio : [
     },
     {
         id:8,
-        img : Portfolio8,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio8.png?alt=media&token=9ea53943-23b9-489c-8ab1-242a17c5d72f",
         alt:'viw the website  macla bakery',
         description: "Macla Bakery: Front-end development with Styled Components for a responsive and visually appealing website.",
         song:'photo',
@@ -270,7 +218,7 @@ portfolio : [
     },
     {
         id:9,
-        img : Portfolio9 ,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio9.jpeg?alt=media&token=f22e3f72-276a-42d0-8715-a0da1a19d75f" ,
         alt:'LOGO the Marea Bartenders',
         description: "Marea Bartenders: Boosting visibility with a customized ReactJS website for a bartending venture.",
         artist:'Jarbram',
@@ -282,7 +230,7 @@ portfolio : [
     },
     {
         id:10,
-        img : Portfolio10 ,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio10.jpeg?alt=media&token=8b1b95d5-6f8c-473c-a3ac-c0b77ec93aae" ,
         alt:'movie store',
         description: "Go-Movies: CRUD operations in Go using Gorilla/Mux for robust web development.",
         song:'photo',
@@ -295,7 +243,7 @@ portfolio : [
     },
     {
         id:11,
-        img : Portfolio11 ,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio11.jpg?alt=media&token=f5e34775-d2d0-4260-8ad1-1d5438b59686" ,
         alt:'picture the world map',
         description: "Go CRUD for Travels: Clean architecture, SOLID principles, SQLite, GORM. Mentored by Carlos García.",
         song:'photo',
@@ -307,7 +255,7 @@ portfolio : [
     },
     {
         id:12,
-        img : Portfolio12 ,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio12.png?alt=media&token=fe62bacb-e312-4e1f-9cd3-167418568068" ,
         alt:'view the console of the project web scraping',
         description: "Web Scraping with GO: Extracting data from web pages for automated information retrieval.",
         title:'Web Scraping',
@@ -318,7 +266,7 @@ portfolio : [
     },
     {
         id:13,
-        img : Portfolio13 ,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio13.png?alt=media&token=71483464-0270-495c-838d-f3466f84b88a" ,
         alt:'photo',
         description: "Todo Web App: Manage tasks, track progress, and boost productivity with ReactJS.",
         title:'To do Web App',
@@ -328,118 +276,221 @@ portfolio : [
         github: 'https://github.com/Jarbram/Todos',
         demo: 'https://jarbram.github.io/Todos/' 
     },
-
+    {
+        id:14,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio14.png?alt=media&token=2dc9b1e1-68e0-4e28-aa23-0abf5bd2044f" ,
+        alt:'photo',
+        description: "Menu QR: ReactJS and Go project for a restaurant menu accessible through QR codes. Clients view available dishes while admins update menu options.",
+        title:'Menu',
+        artist:'Jarbram',
+        url: audio17,
+        lyrics: "Menu QR is a project developed in ReactJS and Go. It is a web application that allows restaurants to create a menu accessible through QR codes. Customers can scan the QR code and view the available dishes, while restaurant admins can update the menu options. This project was developed as part of my learning and practice with ReactJS and Go. I am excited to continue exploring these technologies and enhancing my skills in web development.",
+        github: 'https://github.com/Jarbram/Menu'
+    },
+    {
+        id:15,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio15.png?alt=media&token=6be3c302-e87e-4cd2-8e14-73a08210595e" ,
+        alt:'photo',
+        description: "Authentication microservice in Go using JSON Web Tokens (JWT).",
+        title:'Authentication',
+        artist:'Jarbram',
+        url: audio17,
+        lyrics: "Authentication is a microservice developed in Go that utilizes JSON Web Tokens (JWT) for user authentication. This project was developed as part of my learning and practice with Go. I am excited to continue exploring this technology and enhancing my skills in web development.",
+        github: 'https://github.com/Jarbram/authentication-service'
+    }
 ],
 
 songs: [
-    {
-        id:1,
-        img:Portfolio1,
-        alt:'photo',
-        song:"Abraham",
-        artist:"Abraham",
-        url:audio2, 
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
+    { 
+        id: 1, 
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img1.jpg?alt=media&token=fc82a49f-1663-470b-8121-404a997231fa",
+        alt: "photo",
+        song:"Abraham Huacchillo",
+        artist:"Abraham ",
+        url: audio17,
+        lyrics: "Hello! My name is Abraham Huacchillo, and I'm 23 years old. I'm from Peru and currently residing in Piura. As the youngest of two siblings who share a passion for technology and speed, I'm excited to introduce myself through this special project. It combines two activities that I truly enjoy: listening to music and programming. This project is inspired by Spotify, an app I use every day. However, here you'll also have the opportunity to learn more about me. I invite you to explore all the buttons, pages, and links to discover more about who I am. Welcome to my portfolio!",
     },
-    {
-        id:2,
-        img:Portfolio2,
-        alt:'photo',
+    { 
+        id: 2, 
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img2.jpg?alt=media&token=38847ea0-917a-484b-a2af-4940570eadda", 
+        alt: "photo",
         song:"Jarbram",
-        artist:"Abraham",
-        url:audio3, 
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
+        artist:"Jarbram",
+        url:audio2,
+        lyrics:"Hello! I'm Jarbram, a passionate architect of a creative universe. I invite you to explore the achievements I have built in the vast world of programming. Mastering Linux, PostgreSQL, and MongoDB are just some of my key skills. I delved into web development with HTML, CSS, and JavaScript, and was fascinated by ReactJS. Additionally, I discovered the efficiency of Go in the backend and learned to create scalable code with design patterns.My journey is just beginning, but I already feel an indescribable excitement for what I have accomplished. My portfolio showcases projects that reflect my constant evolution and spirit of learning. My goal is to make an impact in the professional world, showcasing how my creativity can make a difference.I invite you to explore my portfolio and immerse yourself in my universe of innovation and progress! Discover how my projects stand out and how my focus on technological excellence propels me towards the next big idea. In each work, you'll find a unique combination of skills, knowledge, and passion.Join me on this exciting journey, exploring the endless possibilities of programming and technology. In my universe, you'll find ingenious solutions, efficiency, and a mindset of constant growth.Welcome to my world as Jarbram, where creativity and programming merge to create something extraordinary!",
+        
     },
-    {
-        id:3,
-        img:Portfolio3,
-        alt:'photo',
-        song:"About me",
-        artist:"Abraham",
-        url:audio4, 
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
+    { 
+        id: 3, 
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img3.jpg?alt=media&token=d08c6e5a-8a96-40d7-aa14-72193af181d0",
+        alt: "photo",
+        song:"Hobbies",
+        artist:"Abraham ",
+        url: audio3,
+        lyrics: "I would love to share some of my hobbies and passions with you. One of my notable areas of expertise is motorcycle mechanics. I thoroughly enjoy modifying and enhancing my own motorcycles, as well as those of my friends. We dive into the world of bikes, exchanging ideas and sharing thrilling experiences while exploring speed and freedom with every ride.Furthermore, music is an essential part of my life. I play several instruments, including bass, guitar, and drums. Music allows me to express my creativity and emotions in a unique way. I can immerse myself in rhythms and melodies, creating a special atmosphere both on my own and alongside fellow musicians.Sports also play a significant role in my daily life. I love staying active and fit. Nights are perfect for immersing myself in the water and swimming, enjoying the calmness and the sense of freedom it provides. In the mornings, I challenge myself with calisthenics workouts, pushing my physical limits and strengthening my body.These hobbies and passions enrich my life and help me find a balance between my love for technology and the world of motorcycles, music, and sports. Each of them provides me with opportunities to grow, explore new skills, and enjoy exciting moments. It's a pleasure to share these aspects of my life with all of you!",
     },
-    {
-        id:4,
-        img:Portfolio4,
-        alt:'photo',
-        song:"Travels",
-        artist:"Abraham",
-        url:audio4, 
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
+    { 
+        id: 4, 
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img4.jpg?alt=media&token=aa11be76-d930-4920-970b-6e6e8ace1651", 
+        alt: "photo",
+        song:"Idioms",
+        artist:"Abraham ",
+        url: audio4,
+        lyrics: "I was born in Peru, and Spanish was my first language. As I progressed in my studies, English became a part of my life thanks to the school I attended. Gradually, I developed a growing interest in the language, which led me to meet new people and make friends, whether through video games or social media. A few months ago, I had the opportunity to travel to the United States, where I met more people and improved my English, giving me greater confidence in speaking it. Currently, I am learning Portuguese, a language I greatly enjoy, and its transition from Spanish has not been too challenging. I have future plans to continue improving and expanding my language skills, with Italian and Japanese being two languages that captivate me.I have a deep passion for exploring different cultures and connecting with people from around the world. Language learning has opened doors to exciting opportunities and enhanced my understanding of diverse perspectives. It has not only allowed me to communicate effectively but also delve into the nuances of each language and embrace their unique beauty.Learning languages is more than just a hobby for me; it is a continuous adventure that fuels my curiosity, opens doors to new opportunities, and allows me to form meaningful connections with people from various backgrounds.",
     },
-    {
-        id:5,
-        img:Portfolio5,
-        alt:'photo',
-        song:"Travels",
-        artist:"Abraham",
-        url:audio5, 
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
-    },
-    {
-        id:6,
-        img:Portfolio6,
-        alt:'photo',
-        song:"Car Service",
-        artist:"Abraham",
-        url:audio6, 
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
-    },
-    {
-        id:7,
-        img:Portfolio7,
-        alt:'photo',
-        song:"Projects",
-        artist:"Abraham",
-        url:audio7, 
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
-    },
-    {
-        id:8,
-        img:Portfolio8,
-        alt:'photo',
-        song:"Products",
-        artist:"Abraham",
-        url:audio8, 
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
-    },
-    {
-        id:9,
-        img:Img1,
-        alt:'photo',
+    { 
+        id: 5, 
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img5.jpg?alt=media&token=7bbfca28-5055-4095-a62a-cd552b9d4819", 
+        alt: "photo",
+        artist:"Abraham ",
         song:"Experience",
-        artist:"Abraham",
-        url:audio9, 
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
+        url: audio5,
+        lyrics: "I worked at Chilis in Piura as a service staff from January 2018 to January 2019, providing customer service and food preparation. Later, I held the position of Service Area Management Assistant from January 2019 to April 2021, collaborating with the store manager to improve operational efficiency and train new employees. I also worked as a bartender at Chilis from August 2021 to June 2022, managing inventory and maintaining hygiene and safety standards. Additionally, I was a member of the kitchen team at The Lodge Casino in the United States from December 2022 to March 2023. I also undertook freelance and personal web development projects, expanding my skills and knowledge in new technologies. In summary, my experience includes customer service, food preparation, service area management, bartending, and web development. I am excited to continue growing in the field of technology.",
     },
-    {
-        id:10,
-        img:Img2,
-        alt:'photo',
-        song:"Music",
-        artist:"Abraham",
-        url:audio10, 
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
+    { 
+        id: 6, 
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/img6.jpg?alt=media&token=0e7747fc-4136-4619-ba13-3e1b5758040c", 
+        alt: "photo",
+        song:"Trips",
+        artist:"Abraham ",
+        url: audio6,
+        lyrics: "My parents always instilled in me a passion for travel and exploring new places, people, and landscapes. They nurtured my interest in nature, and from a young age, we traveled as a family within our country, discovering the beautiful landscapes of Peru, its history, and the different ways of life. I am very grateful for the upbringing they provided because I continue to travel and discover new destinations and cultures.A few months ago, I had the opportunity to visit Brazil, a stunning country with an incredible climate and beautiful beaches. I appreciated the experience in Brazil, where I encountered friendly and joyful people. I hope to return soon as I feel there is still so much more for me to explore.In addition, I have had the chance to explore other countries, such as the United States. During my trips to Colorado, New York, New Jersey, and Pennsylvania, I immersed myself in cultural diversity and enjoyed the vibrant energy of the cities. I also marveled at the breathtaking natural landscapes that each region offered.I also visited Salinas in Ecuador, where I delighted in its beautiful beaches and discovered the cultural richness and warmth of its people.Each journey has left me with unforgettable memories and a deeper understanding of the world around us. I am eager to continue exploring new destinations and immersing myself in the wonders that each place has to offer. Traveling is a constant source of learning, personal growth, and appreciation for the diversity that surrounds us.",
     },
     {
         id:11,
-        img:Img3,
-        alt:'photo',
-        song:"Pets",
-        artist:"Abraham",
-        url:audio11, 
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio1.png?alt=media&token=fcb9171e-ac9b-44f7-bc77-da810d82910f" ,
+        alt:'Docker Logo',
+        artist:"Jarbram",
+        song:"Docker Manager",  
+        url: audio7,
+        lyrics: "Docker-manager: Simplify Docker container management with a Go-based tool. Interactive CLI for listing, creating, deleting, starting, and stopping containers.Docker-manager is a Go-based tool that simplifies the management of Docker containers. It provides an interactive command-line interface (CLI) for easily listing containers, creating, deleting, starting, and stopping containers.This project was developed as part of my learning and practice with Docker. I hope it proves useful to other developers starting to work with Docker or seeking a more efficient way to manage their containers.Features:List running and stopped containers. Create new containers with customizable options. Delete existing containers. Start and stop containers. Display available Docker ports for easy port exposure when creating a container.",
     },
     {
         id:12,
-        img:Img4,
-        alt:'photo',
-        song:"Certifications",
-        artist:"Abraham",
-        url:audio12, 
-        lyrics: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem"
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio2.jpg?alt=media&token=68ae3f29-6455-4900-99cf-73fc85c6f873" ,
+        alt:'mechanics working in a car',
+        artist:'Jarbram',
+        song:' Car Services', 
+        url: audio8,
+        lyrics: "CarService is a website for an auto repair shop where customers can register and request appointments for their vehicles. Through the website, customers can access a wide range of articles on vehicle care and make service requests. On the other hand, the auto repair team accepts the requests, registers the vehicles, and updates the status of each vehicle so that customers can track their progress without the need to be physically present at the shop. Once the vehicle is delivered, it disappears from the team's view to avoid any confusion. We utilized technologies such as PostgreSQL, ReactJS for the frontend, and Go for the backend, focusing on applying solid principles to achieve a scalable project. Currently, we are working towards implementing a clean architecture to further enhance the system.    During the development of CarService, I learned to design a complete web application from scratch, using modern technologies like ReactJS and Go. I gained experience in handling the interaction between the frontend and backend, implementing functionalities such as user registration, appointment requests, and vehicle status tracking. Additionally, I acquired knowledge about relational databases, utilizing PostgreSQL to store and manage information effectively. Applying solid principles in the development process allowed me to create more modular, maintainable, and scalable code. I am excited to continue improving the project and exploring more about clean architecture to optimize its performance and extensibility.",
     },
+    {
+        id:13,
+        img: "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio3.png?alt=media&token=3e21c4df-18db-40db-bb44-ebf4fd916699" ,
+        alt:'Gopher, its the pet the golang',
+        artist:'Jarbram',
+        song:'SOLID Go',
+        url: audio9,
+        lyrics: "Solid Go: A repository that applies SOLID principles in Go with clear and simple examples, making it easier to understand. Learning the SOLID principles provides a solid foundation for developing high-quality software, promoting code modularity, extensibility, and maintainability. By exploring this repository, you will discover how to apply SOLID principles in the specific context of Go, gaining invaluable knowledge for your growth as a developer. I invite you to visit my portfolio to learn more about this project and explore other works related to Go and best programming practices. Discover how to enhance your Go skills and take your projects to the next level!",
+    },
+    {
+        id:14,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio4.png?alt=media&token=a9bc05ad-0572-438f-8a1e-0a2835fdd9bd" ,
+        alt:'Gopher, its the pet the golang',
+        artist:'Jarbram',
+        song:'Design Patterns Go', 
+        url: audio10,
+        lyrics: "Design Pattern Go: A repository that applies design patterns in Go with clear and simple examples, making it easier to understand. Learning design patterns equips you with powerful tools to solve common software design problems. By exploring this repository, you will discover how to apply recognized design patterns in the specific context of Go, enhancing the structure, flexibility, and maintainability of your projects. You will gain valuable knowledge on utilizing patterns such as Singleton, Factory, Observer, and many more. I invite you to visit the repository and explore the practical and detailed examples that will strengthen your design skills in Go. Discover how to create more robust and efficient code in Go and take your projects to the next level!",
+    },
+    {
+        id:15,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio5.png?alt=media&token=6127807a-65b9-49d3-88f4-b28d92afcc52" ,
+        alt:'view the project employee organization',
+        artist:'Jarbram',
+        song:'Employee Organization', 
+        url: audio11,
+        lyrics: "Employee Organization is a project aimed at organizing employees into different categories such as frontend developers, backend developers, UX/UI designers, and more. Developed in ReactJS, this project leverages hooks and components to create an intuitive and user-friendly interface. Interact with the application to assign employees to their respective categories, manage their information, and maintain efficient team organization. Explore the project and experience the simplicity and effectiveness of this tool in employee management!",
+    },
+    {
+        id:16,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio6.jpg?alt=media&token=5e263291-7292-4f24-84b3-6d134c9ec1b0" ,
+        alt:'books',
+        artist:'Jarbram',
+        song:'Book Store', 
+        url: audio12,
+        lyrics: "Book Market is a project implemented in Go using Fiber and GORM to create a book marketplace system. This project utilizes CRUD (Create, Read, Update, Delete) functionalities to manage books in the database. Fiber is a fast and efficient web framework for Go, offering simple routing and high-performance request and response handling. GORM is an ORM (Object-Relational Mapping) library that simplifies database interaction and accelerates development. Explore the project and discover how to create, update, delete, and search books in this book marketplace implemented in Go.",
+    },
+    {
+        id:17,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio7.jpg?alt=media&token=1635ccb8-7068-43aa-b94a-739c064fd25a",
+        alt:'TAPE MEASURE AROUND AN APPLE',
+        description: "Tracker Calories: Go and ReactJS project for efficient calorie tracking. CRUD functionality and MongoDB integration.",
+        artist:'Jarbram',
+        song:'Tracker Calories', 
+        url: audio13,
+    },
+    {
+        id:18,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio8.png?alt=media&token=9ea53943-23b9-489c-8ab1-242a17c5d72f",
+        alt:'viw the website  macla bakery',
+        artist:'Jarbram',
+        song:'Macla Bakery', 
+        url: audio14,
+        lyrics: "In the Macla Bakery project, I had the opportunity to develop the front-end using Styled Components. Styled Components is a React library that allows writing CSS styles directly in the application's components. This provides greater modularity and facilitates the reusability of styles. I used Styled Components to create custom styles and ensure that the bakery's website looks appealing and consistent across all devices. It was exciting to work with this tool and enhance my skills in user interface development.",
+    },
+    {
+        id:19,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio9.jpeg?alt=media&token=f22e3f72-276a-42d0-8715-a0da1a19d75f" ,
+        alt:'LOGO the Marea Bartenders',
+        artist:'Jarbram',
+        song:'Marea Bartenders', 
+        url: audio15,
+        lyrics: "In the Marea Bartenders project, I worked on developing a website to promote and increase the visibility of a bartending venture. Using ReactJS, I created a custom project that met the client's requirements and expectations. It was an interesting project as it involved creating an attractive and functional design that reflected the essence and services offered by Marea Bartenders. I am thrilled to have contributed to the growth of this business and applied my web development skills to help them achieve their goals.",
+    },
+    {
+        id:20,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio10.jpeg?alt=media&token=8b1b95d5-6f8c-473c-a3ac-c0b77ec93aae" ,
+        alt:'movie store',
+        song:'Movies CRUD',
+        artist:'Jarbram',
+        url: audio17,
+        lyrics: "Go-Movies is a CRUD project developed in Go using the Gorilla/Mux library. Gorilla/Mux is a powerful and flexible router for building web applications in Go. With Go-Movies, I was able to implement create, read, update, and delete operations to manage movies. This experience allowed me to enhance my skills in Go and learn how to efficiently utilize Gorilla/Mux to develop robust and scalable web applications.",
+    },
+    {
+        id:21,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio11.jpg?alt=media&token=f5e34775-d2d0-4260-8ad1-1d5438b59686" ,
+        alt:'picture the world map',
+        song:'GO CRUD for travels',
+        artist:'Jarbram',
+        url: audio17,
+        lyrics: "Go CRUD for Travels was developed in collaboration with a skilled backend developer in Go, who served as my mentor throughout the project. I gained valuable insights into managing a clean architecture and applying SOLID principles when writing code. We worked with a SQLite database and utilized GORM for interacting with it. I am immensely grateful for the opportunity to collaborate with Carlos García, who provided knowledge and guidance throughout the project.",
+    },
+    {
+        id:22,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio12.png?alt=media&token=fe62bacb-e312-4e1f-9cd3-167418568068" ,
+        alt:'view the console of the project web scraping',
+        song:'Web Scraping',
+        artist:'Jarbram',
+        url: audio17,
+        lyrics: "I developed a web scraping project using GO, which helped me gain knowledge about the concept of web scraping and its benefits. Web scraping is a technique used to extract information from web pages in an automated manner. Through this project, I explored the retrieval of structured data from websites, providing me with a broader understanding of manipulating and analyzing information on the web.",
+    },
+    {
+        id:23,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio13.png?alt=media&token=71483464-0270-495c-838d-f3466f84b88a" ,
+        alt:'photo',
+        song:'To do Web App',
+        artist:'Jarbram',
+        url: audio17,
+        lyrics: "One of my first projects was developing a Todo Web App using ReactJS. It was a great learning experience where I gained proficiency in state management, working with hooks, and creating reusable components. This app has been extremely useful for organizing my daily programming tasks, as I can add, track progress, and mark completed tasks. At the end of the day, I can review what I've accomplished and feel a sense of productivity and achievement.",
+    },
+    {
+        id:24,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio14.png?alt=media&token=2dc9b1e1-68e0-4e28-aa23-0abf5bd2044f" ,
+        alt:'photo',
+        song:'Menu',
+        artist:'Jarbram',
+        url: audio17,
+        lyrics: "Menu QR is a project developed in ReactJS and Go. It is a web application that allows restaurants to create a menu accessible through QR codes. Customers can scan the QR code and view the available dishes, while restaurant admins can update the menu options. This project was developed as part of my learning and practice with ReactJS and Go. I am excited to continue exploring these technologies and enhancing my skills in web development.",
+    },
+    {
+        id:25,
+        img : "https://firebasestorage.googleapis.com/v0/b/portfolio-426c9.appspot.com/o/portfolio15.png?alt=media&token=6be3c302-e87e-4cd2-8e14-73a08210595e" ,
+        alt:'photo',
+        song:'Authentication',
+        artist:'Jarbram',
+        url: audio17,
+        lyrics: "Authentication is a microservice developed in Go that utilizes JSON Web Tokens (JWT) for user authentication. This project was developed as part of my learning and practice with Go. I am excited to continue exploring this technology and enhancing my skills in web development.",
+    }
     
 ]
 
