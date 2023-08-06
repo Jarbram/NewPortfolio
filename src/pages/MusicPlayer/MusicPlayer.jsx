@@ -1,19 +1,17 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './MusicPlayer.css';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate} from 'react-router-dom';
 import { FaHeart } from 'react-icons/fa';
 import { AiFillPlayCircle, AiFillPauseCircle, AiOutlineClose } from 'react-icons/ai';
 import { BiSkipNext, BiSkipPrevious } from 'react-icons/bi';
+import { useMusicPlayer } from '../../MusicPlayerContext';
 
 const MusicPlayer = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [currentTime, setCurrentTime] = useState(0);
+  const { isPlaying, setIsPlaying, currentTime, setCurrentTime, audioRef } = useMusicPlayer();
   const [duration, setDuration] = useState(0);
-  const audioRef = useRef();
   const progressBarRef = useRef();
 
   const location = useLocation();
-
   const img = location.state.img;
   const alt = location.state.alt;
   const song = location.state.song;
@@ -28,6 +26,11 @@ const MusicPlayer = () => {
     } else {
       audioRef.current.play();
     }
+  };
+
+  const handleGoBack = () => {// Pausar la reproducción al salir del MusicPlayer
+    setCurrentTime(audioRef.current.currentTime); // Almacenar el tiempo de reproducción actual antes de regresar al Player
+    window.history.back()// Regresar a la vista anterior
   };
 
   const handleTimeUpdate = (e) => {
@@ -52,17 +55,16 @@ const MusicPlayer = () => {
   };
 
   useEffect(() => {
-    if (isPlaying) {
-      audioRef.current.play();
-    } else {
-      audioRef.current.pause();
-    }
-  }, [isPlaying]);
+    setIsPlaying(true);
+    audioRef.current.currentTime = currentTime;
+    audioRef.current.play();
+  }, []);
+
 
   return (
     <div className='musicPlayer'>
       <div className='return-btn'>
-        <AiOutlineClose onClick={() => window.history.back()} />
+        <AiOutlineClose onClick={() => handleGoBack()} />
       </div>
       <div className='about-img'>
         <img src={img} alt={alt} />

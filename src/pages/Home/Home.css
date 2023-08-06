@@ -50,10 +50,11 @@
     }
   
     .suggestions-container {
-      grid-template-columns: repeat(3, 1fr); 
-      margin-top: 30px; 
-      gap: 16px; 
-      padding: 0 20px; 
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      padding: 0 20px;
+      margin: 30px auto;
+      max-width: 1200px; 
     }
   }
     

@@ -34,18 +34,18 @@
 /* Estilos para pantalla de escritorio */
 @media (min-width: 768px) {
   .suggestions {
-    max-width: 350px;
+    max-width: 450px;
   }
 
   .suggestions-img {
-    flex: 0 0 120px; /* Hacemos la imagen más grande */
-    height: 120px; /* Hacemos la imagen más grande */
+    flex: 0 0 140px; /* Hacemos la imagen más grande */
+    height: 140px; /* Hacemos la imagen más grande */
     border-radius: 10px 0 0 10px;
   }
 
 
   .suggestions-name {
     font-size: 18px; /* Aumentamos el tamaño del texto */
-    padding: 0 20px; /* Aumentamos el espacio de padding para mejorar el aspecto */
+    padding: 0 80px; /* Aumentamos el espacio de padding para mejorar el aspecto */
   }
 }

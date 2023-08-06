@@ -1,12 +1,12 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './Player.css';
 import { FaHeart, FaPlay, FaPause } from 'react-icons/fa';
 import { BsPcDisplay } from 'react-icons/bs';
 import { useNavigate } from 'react-router-dom';
+import { useMusicPlayer } from '../../MusicPlayerContext';
 
 const Player = (props) => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef();
+  const { isPlaying, setIsPlaying, audioRef, currentTime, setCurrentTime } = useMusicPlayer();
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -41,6 +41,19 @@ const Player = (props) => {
     }
   }, [isPlaying]);
 
+  // Actualizar el tiempo de reproducción en tiempo real
+  useEffect(() => {
+    const handleTimeUpdate = () => {
+      setCurrentTime(audioRef.current.currentTime);
+    };
+
+    audioRef.current.addEventListener('timeupdate', handleTimeUpdate);
+
+    return () => {
+      audioRef.current.removeEventListener('timeupdate', handleTimeUpdate);
+    };
+  }, [audioRef, setCurrentTime]);
+
   return (
     <div className='player-container'>
       <div className='song-container' onClick={handleClick}>
@@ -59,7 +72,7 @@ const Player = (props) => {
           {isPlaying ? <FaPause /> : <FaPlay />}
         </div>
       </div>
-      <audio ref={audioRef} src={props.url} onEnded={() => setIsPlaying(false)} />
+      <audio ref={audioRef} src={props.url}  onEnded={() => setIsPlaying(false)} />
     </div>
   );
 };
